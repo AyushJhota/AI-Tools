@@ -1,7 +1,7 @@
 {
   "name": "myapp",
   "private": true,
-  "homepage": "https://AyushJhota.github.io/AI-Tools",
+  "homepage": "https://ayushjhota.github.io/AI-Tools/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
