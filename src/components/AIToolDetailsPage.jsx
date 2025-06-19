@@ -10,6 +10,8 @@ const AIToolDetailsPage = () => {
     return <div style={{ color: 'red', fontSize: '20px', textAlign: 'center' }}>Error: AI Tool not found.</div>;
   }
 
+  console.log(tool); // Log the tool object
+
 
   return (
     <div className="ai-tool-details">
