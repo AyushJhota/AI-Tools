@@ -123,7 +123,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/AI-Tools/">
       <div className="App" style={{ overflow: 'hidden', minHeight: '100vh' }}>
 
         {/* Background elements with parallax effect */}
