@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 import { aiTools } from '../data/aiTools';
 
 const AIToolList = () => {
+  console.log('AIToolList rendering');
+  console.log('aiTools:', aiTools);
+
   return (
     <div>
       <h2>AI Tools</h2>
