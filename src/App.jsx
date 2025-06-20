@@ -3,7 +3,7 @@ import './App.css';
 import AIToolList from './components/AIToolList'; // Import AIToolList
 // import AIToolDetails from './components/AIToolCard'; // Assuming AIToolCard is used differently now
 import AIToolDetailsPage from './components/AIToolDetailsPage'; // Assuming AIToolDetailsPage will be used for details
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import { CSSTransition, TransitionGroup} from 'react-transition-group';
 import { useLocation } from 'react-router-dom';
 
