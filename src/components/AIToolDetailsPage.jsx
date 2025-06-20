@@ -38,9 +38,16 @@ const AIToolDetailsPage = () => {
         <div className="tool-metadata">
           <p>
             <span className="metadata-label"><strong>Category:</strong></span>
-            <span className="department-label">{tool.category}</span>
+            <span className="department-label">{tool.category}
+
+</span>
           </p>
-          <p><strong>Use:</strong> {tool.useCases}</p> {/* Changed from tool.use to tool.useCases */}
+          <p><span className="metadata-label"><strong>Use Cases:</strong></span></p> {/* Label for the use cases list */}
+          <ul className="use-cases-list"> {/* Unordered list for use cases */}
+            {tool.useCases && tool.useCases.map((useCase, index) => (
+              <li key={index}>{useCase}</li> // Render each use case as a list item
+            ))}
+          </ul>
           <div> {/* Use a div instead of a p for this section */}
   <p><span className="metadata-label"><strong>Additional Details:</strong></span></p> {/* Put the label in its own p or div */}
   {tool.additionalDetails && (
