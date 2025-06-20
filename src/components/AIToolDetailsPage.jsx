@@ -25,7 +25,7 @@ const AIToolDetailsPage = () => {
               href={tool.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="read-more-button"
+              className="visit-site-button"
             >
               Visit Website
             </a>
