@@ -138,5 +138,69 @@ export const aiTools = [
     ],
     "additionalDetails": "Contentcore.xyz is a platform focused on simplifying content creation, specifically for generating and exporting images and videos. It emphasizes user-friendly tools for designing, marketing, and digital content creation. The platform allows users to create and export content in various formats, including 3D visuals and motion-based content. It also features tools for animation, lighting, and material customization, aiming to provide a streamlined content creation experience. ",
     "link": "https://contentcore.xyz/"
-  }
+  },
+    {
+      "id": "modulify",
+      "name": "Modulify AI",
+      "category": "Web Design / Productivity",
+      "description": "An AI-powered web design tool that streamlines website creation by blending pre-built components with intelligent design assistance, primarily optimized for Webflow.",
+      "useCases": [
+        "Rapid website development using pre-built components",
+        "Designing professional-quality websites without extensive coding skills",
+        "Ensuring design consistency across multiple web pages",
+        "Launching websites quickly for entrepreneurs, freelancers, and small businesses",
+        "Generating and customizing website elements with AI guidance"
+      ],
+      "additionalDetails": "Modulify AI is designed to simplify the web design process for users of all skill levels. Its key features include AI-powered design assistance, a comprehensive library of ready-to-use components, and specific optimization for Webflow integration. It offers a user-friendly interface to build visually appealing and functional websites. Pricing information suggests a clear structure with a free trial period.",
+      "link": "https://webflow.com/made-in-webflow/website/mdlfy-website"
+    },
+    {
+      "id": "sunoai",
+      "name": "Suno AI",
+      "category": "Music Generation / Content Creation",
+      "description": "An AI music creation software that generates original songs, including melodies, harmonies, rhythms, and lyrics, based on user prompts.",
+      "useCases": [
+        "Generating complete songs from text descriptions (text-to-music)",
+        "Creating backing tracks for independent musicians and artists",
+        "Experimenting with different music genres, tempos, and moods",
+        "Generating custom soundtracks for film, video, and game projects",
+        "Sparking creative ideas for melodies and lyrics",
+        "Learning new languages through songwriting by creating personalized songs"
+      ],
+      "additionalDetails": "Suno AI uses sophisticated machine learning algorithms trained on a vast dataset of music. It can generate 60-second song clips (or longer with extensions) and provides two variations per generation. Users can provide detailed prompts for genre, mood, instrumentation, and even initial lyrics. It also supports lyric writing in over 50 languages and can generate AI-powered cover art. Offers a free plan with daily credits and paid plans (Pro and Premier) for more credits, commercial use rights, and advanced features like stem splitting and priority queues. Available as a web app and on mobile.",
+      "link": "https://suno.com/"
+    },
+    {
+      "id": "emergentai",
+      "name": "Emergent.sh",
+      "category": "Coding Helper / AI Agent / Software Development",
+      "description": "An AI-native development environment that automates the entire software development lifecycle, from planning and coding to testing and deployment of full-stack applications, using autonomous coding agents.",
+      "useCases": [
+        "Automating the planning, coding, testing, and deployment of full-stack applications",
+        "Handling code migration, modernization, and maintenance autonomously",
+        "Creating real databases, working APIs, secure authentication, and production-ready infrastructure from natural language inputs",
+        "Streamlining workflows by integrating various development tools in one platform",
+        "Assisting in transforming legacy codebases to modern frameworks"
+      ],
+      "additionalDetails": "Emergent.sh is designed to enhance developer productivity by allowing AI agents to handle repetitive and complex coding tasks. It provides an AI-native workspace and focuses on end-to-end automation. It's available on a freemium model. There are other entities named 'Emergent AI' (e.g., a research center or a medical equipment distributor), but 'Emergent.sh' specifically refers to this AI-powered development platform.",
+      "link": "https://emergent.sh/"
+    },
+    {
+      "id": "klingai",
+      "name": "Kling AI",
+      "category": "Video Generation / Content Creation",
+      "description": "An advanced AI-powered video generation model developed by Kuaishou that transforms text prompts and reference images into high-definition, cinematic videos with realistic motion and physics simulation.",
+      "useCases": [
+        "Generating high-definition video clips from text descriptions (text-to-video)",
+        "Animating still images to create dynamic videos (image-to-video)",
+        "Producing cinematic quality videos with realistic physics and facial expressions",
+        "Creating engaging content for social media and marketing",
+        "Extending existing video durations with AI",
+        "Controlling specific object movements within a video using a 'Motion Brush'",
+        "Adding camera movements and creating custom sound effects for videos",
+        "Virtual try-on for garments from model images"
+      ],
+      "additionalDetails": "Kling AI, particularly Kling 2.1, is known for its ability to generate hyper-realistic human videos and dynamic action scenes. It leverages sophisticated technologies like 3D spatiotemporal attention mechanisms. It can generate multiple video options from the same prompt and allows for adding sound effects and background music. It supports high-resolution output (up to 1080p) and offers features like Lip Sync and Face Model (premium). It's considered a strong contender against models like Google's Veo and OpenAI's Sora for video generation quality and features.",
+      "link": "https://www.captions.ai/features/kling-ai-video-generator"
+    }
 ];
