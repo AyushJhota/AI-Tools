@@ -202,5 +202,73 @@ export const aiTools = [
       ],
       "additionalDetails": "Kling AI, particularly Kling 2.1, is known for its ability to generate hyper-realistic human videos and dynamic action scenes. It leverages sophisticated technologies like 3D spatiotemporal attention mechanisms. It can generate multiple video options from the same prompt and allows for adding sound effects and background music. It supports high-resolution output (up to 1080p) and offers features like Lip Sync and Face Model (premium). It's considered a strong contender against models like Google's Veo and OpenAI's Sora for video generation quality and features.",
       "link": "https://www.captions.ai/features/kling-ai-video-generator"
-    }
+    },
+      {
+        "id": "reve_art",
+        "name": "Reve.Art",
+        "category": "Image Generator",
+        "description": "A cutting-edge text-to-image AI generator that transforms written descriptions into high-quality visual art, offering extensive customization and control.",
+        "useCases": [
+          "Generating unique artistic images from text prompts",
+          "Creating professional-quality visuals for digital art and design",
+          "Producing marketing materials, posters, logos, and book covers",
+          "Generating realistic human and animal images",
+          "Experimenting with various artistic styles (photorealistic, watercolor, abstract, fantasy)",
+          "Editing and modifying existing images with text commands",
+          "Ensuring precise text rendering within images"
+        ],
+        "additionalDetails": "Reve.Art is known for its strong prompt adherence, aesthetic quality, and unique ability to generate readable text within images. It offers fast image generation (often under 10 seconds) and features like 'Enhance' mode to refine prompts, 'Seed' for consistent results, and 'Instruct' for targeted image modifications. Users can also upload images for style referencing. It operates on a credit-based system, offering 100 free credits upon signup and options to purchase more.",
+        "link": "https://preview.reve.art/app"
+      },
+      {
+        "id": "clipfly_ai",
+        "name": "Clipfly.ai",
+        "category": "Video Generation / Video Editor",
+        "description": "An AI-powered video creation platform that simplifies video production by transforming text and images into engaging videos with various AI-driven features.",
+        "useCases": [
+          "Generating dynamic videos from text prompts (text-to-video)",
+          "Converting static images into animated video clips (image-to-video)",
+          "Creating promotional content, educational videos, and social media campaigns",
+          "Producing corporate presentations and product demos",
+          "Generating lifelike voiceovers from text (text-to-speech) and creating talking avatars",
+          "Removing watermarks from videos",
+          "Enhancing video resolution, color correction, and background removal"
+        ],
+        "additionalDetails": "Clipfly.ai provides an all-in-one online video editing solution with advanced AI tools. It offers features like automatic scene changes, background music selection, and complex visual effects. It's designed to be user-friendly for both beginners and professionals. Clipfly also supports integration with other popular AI tools like Leonardo AI, Pixverse AI, and Fliki AI. It offers a free plan with basic features and watermarked exports, and a Pro plan for premium tools and HD exports.",
+        "link": "https://www.clipfly.ai/"
+      },
+      {
+        "id": "flowith_io",
+        "name": "Flowith.io",
+        "category": "Productivity / AI Agent / Workflow Automation",
+        "description": "An integrated AI platform and 'AI Creation Workspace' designed for deep work, that streamlines tasks and boosts productivity by allowing seamless interaction with AI through a multi-thread canvas-based interface.",
+        "useCases": [
+          "Automating multi-step processes and complex workflows (e.g., building batch scripts, pipelines)",
+          "Conducting in-depth research and generating structured reports or presentations",
+          "Creating structured knowledge wikis, FAQs, and technical documentation",
+          "Scaffolding web pages, personal portfolios, and product showcase sites",
+          "Developing custom tools, integrating APIs, and performing data manipulation",
+          "Generating 3D models from text or images",
+          "Facilitating collaborative work and knowledge sharing within teams"
+        ],
+        "additionalDetails": "Flowith.io features 'Oracle', a next-gen AIOS for managing complex tasks with efficiency, and a canvas-based multi-thread interface for real-time visualization and collaboration. It aims to surpass traditional chat-based tools by providing a more structured and autonomous AI experience. It offers a community for sharing 'recipes' (templates for workflows). Pricing includes Advanced, Premium, and Unlimited plans, with varying features and quotas, and discounts for yearly subscriptions.",
+        "link": "https://flowith.io/"
+      },
+      {
+        "id": "krea_ai",
+        "name": "Krea.ai",
+        "category": "Image & Video Generation / Real-time Creative Tool",
+        "description": "A powerful AI platform that offers cutting-edge features to generate, enhance, edit, and animate images and videos in real-time, designed for creative professionals.",
+        "useCases": [
+          "Generating images instantly as you type or provide visual input (Realtime feature)",
+          "Enhancing and upscaling images and videos without quality loss",
+          "Creating rapid concept explorations for design and art projects",
+          "Developing dynamic visuals for interactive presentations and art direction",
+          "Animating images and performing lip-sync for videos",
+          "Generating 3D objects from text descriptions or reference images",
+          "Training custom AI models based on unique aesthetics, subjects, or faces (coming soon)"
+        ],
+        "additionalDetails": "Krea.ai offers a suite of tools including 'Realtime' (for instant AI image generation from text, images, screen sharing, or camera input), 'Enhancer', 'Video Lipsync', and '3D Objects'. It provides precise control over AI strength and offers a 'Canvas Mode' for direct image manipulation. Krea.ai operates on a compute unit-based pricing model with free daily generations and tiered paid plans (Basic, Pro, Max) for increased usage, priority queues, commercial licenses, and concurrent generations.",
+        "link": "https://www.krea.ai/"
+      }
 ];
