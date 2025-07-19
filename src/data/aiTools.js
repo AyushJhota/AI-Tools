@@ -270,5 +270,73 @@ export const aiTools = [
         ],
         "additionalDetails": "Krea.ai offers a suite of tools including 'Realtime' (for instant AI image generation from text, images, screen sharing, or camera input), 'Enhancer', 'Video Lipsync', and '3D Objects'. It provides precise control over AI strength and offers a 'Canvas Mode' for direct image manipulation. Krea.ai operates on a compute unit-based pricing model with free daily generations and tiered paid plans (Basic, Pro, Max) for increased usage, priority queues, commercial licenses, and concurrent generations.",
         "link": "https://www.krea.ai/"
-      }
+      },
+        {
+          "id": "gamma_ai",
+          "name": "Gamma",
+          "category": "Presentation / Document / Webpage Creator",
+          "description": "An AI-powered tool that helps users create engaging presentations, documents, and websites rapidly using natural language prompts, focusing on modern, interactive, and scrollable formats.",
+          "useCases": [
+            "Creating professional business presentations, client pitches, and project proposals",
+            "Designing marketing and sales decks with dynamic content like videos and charts",
+            "Developing interactive educational content, reports, and lesson plans",
+            "Building sleek startup pitch decks and investor presentations",
+            "Generating website mockups, simple web pages, and portfolios",
+            "Streamlining content creation for internal communications and client updates"
+          ],
+          "additionalDetails": "Gamma moves beyond traditional slide decks, offering a scrollable, responsive, card-based format that's optimized for web viewing and mobile devices. Key features include one-click restyling, flexible templates, real-time collaboration, built-in analytics for audience engagement, and the ability to embed various media (YouTube, Figma, Loom, charts). It provides a generous free plan with basic features and AI credits, and paid plans (Plus, Pro, Enterprise) for more credits, advanced features, and team collaboration.",
+          "link": "https://gamma.app/"
+        },
+        {
+          "id": "decktopus_ai",
+          "name": "Decktopus AI",
+          "category": "Presentation Maker / Microsite Builder",
+          "description": "An AI-powered presentation generator that creates professional-looking decks, forms, and microsites instantly from text prompts, minimizing design effort and maximizing speed.",
+          "useCases": [
+            "Generating sales proposals and pitch decks for startups and entrepreneurs",
+            "Creating internal presentations and client reports",
+            "Producing educational materials and interactive lessons",
+            "Designing visually appealing marketing and showcase decks",
+            "Transforming static PDF documents into dynamic, interactive presentations",
+            "Collecting data with built-in forms within presentations",
+            "Creating mobile-responsive content for social media bios and engagement"
+          ],
+          "additionalDetails": "Decktopus is designed for speed and ease of use, allowing users to focus on content rather than design. It features one-click AI design for layouts, AI-generated slide notes, integrated image and icon finders, and a powerful standalone editor. Presentations can be downloaded in PPT and PDF formats and can be embedded on websites. It offers a free trial, with Pro and Business plans providing increasing AI credits, custom domain connection, analytics, and team features.",
+          "link": "https://www.decktopus.com/"
+        },
+        {
+          "id": "vidu_ai",
+          "name": "Vidu AI",
+          "category": "Video Generation",
+          "description": "An AI video generator that quickly transforms text descriptions, images, or reference photos into short, high-quality video clips, often with a focus on consistent character generation.",
+          "useCases": [
+            "Generating dynamic video content from text prompts (text-to-video)",
+            "Animating still images to create engaging video sequences (image-to-video)",
+            "Creating videos that maintain consistent characters and objects across multiple scenes using reference images",
+            "Producing high-quality videos for social media (e.g., YouTube Shorts, TikTok)",
+            "Developing short films, advertisements, and creative content",
+            "Experimenting with various cinematography styles and camera movements",
+            "Generating videos with anime or realistic aesthetics"
+          ],
+          "additionalDetails": "Vidu AI (often associated with 'Vidu Q1' or 'Vidu 2.0') is known for its multi-subject consistency feature, allowing users to upload multiple reference images to ensure consistent characters and objects throughout the generated video. It boasts fast generation speeds, support for high resolutions (up to 1080p), and includes features like 'Reference-to-Video' and 'First & Last Frames Control' for smooth transitions. Vidu AI offers a free plan with daily credits and tiered paid plans (Standard, Premium, Ultimate) for increased credits, higher resolution, commercial use, and early feature access.",
+          "link": "https://www.vidu.com/"
+        },
+        {
+          "id": "aistudios",
+          "name": "AI Studios (by DeepBrain AI)",
+          "category": "Video Generation / AI Avatar",
+          "description": "A comprehensive AI video creation platform that enables users to produce high-quality videos effortlessly using realistic AI avatars, natural text-to-speech, and advanced editing features.",
+          "useCases": [
+            "Creating professional training videos and e-learning content",
+            "Developing marketing and promotional videos with AI avatars",
+            "Producing news broadcasts and sports reports with virtual presenters",
+            "Generating e-commerce product demonstration videos",
+            "Crafting internal communications and HR-related videos",
+            "Creating personalized video messages and customer support content",
+            "Converting various content types (text, URLs, documents) into video",
+            "Localizing video content with multilingual support (over 80 languages)"
+          ],
+          "additionalDetails": "AI Studios by DeepBrain AI stands out for its wide selection of realistic digital avatars (including 3D and customizable ones), extensive multilingual support, and seamless text-to-speech capabilities. It offers an intuitive workflow, background customization, music integration, and various video templates. It aims to significantly reduce video production time and cost. It provides a free plan with limited exports and features, and tiered paid plans (Personal, Team, Enterprise) for unlimited exports, higher resolution, more custom avatars, and advanced support.",
+          "link": "https://www.aistudios.com/"
+        },
 ];
