@@ -339,4 +339,65 @@ export const aiTools = [
           "additionalDetails": "AI Studios by DeepBrain AI stands out for its wide selection of realistic digital avatars (including 3D and customizable ones), extensive multilingual support, and seamless text-to-speech capabilities. It offers an intuitive workflow, background customization, music integration, and various video templates. It aims to significantly reduce video production time and cost. It provides a free plan with limited exports and features, and tiered paid plans (Personal, Team, Enterprise) for unlimited exports, higher resolution, more custom avatars, and advanced support.",
           "link": "https://www.aistudios.com/"
         },
+          {
+            "id": "polloai",
+            "name": "Pollo AI",
+            "category": "Video Generation / Image Generator",
+            "description": "An all-in-one AI video and image generator that creates high-quality, engaging videos and images from various inputs, including text, images, and existing video clips.",
+            "useCases": [
+              "Creating videos from text prompts (text-to-video)",
+              "Animating static images with motion effects (image-to-video)",
+              "Restyling videos into different artistic formats (e.g., anime, claymation, Pixar)",
+              "Applying physics-based effects like AI Squish, Melt, and Explode for meme creation",
+              "Generating AI kissing, hugging, and muscle growth videos from images",
+              "Creating lip-synced dialogues by matching mouth movements to uploaded audio"
+            ],
+            "additionalDetails": "Pollo AI integrates a variety of cutting-edge AI models, including Kling AI, Runway, Vidu AI, Luma, and Veo, to offer a diverse range of outputs. It provides over 40 AI video effects and various templates. The platform offers a free tier with watermarked outputs and paid plans for commercial rights and higher resolutions. It's available as a web app and a mobile app on Google Play.",
+            "link": "https://pollo.ai/"
+          },
+          {
+            "id": "slidesai",
+            "name": "SlidesAI.io",
+            "category": "Presentation Maker / Productivity",
+            "description": "An AI-powered add-on for Google Slides and Microsoft PowerPoint that automatically transforms text into professional and visually appealing presentations in seconds.",
+            "useCases": [
+              "Generating professional presentations from any given text or topic",
+              "Creating educational presentations for teachers and students",
+              "Designing business and marketing decks with AI-generated images and icons",
+              "Saving time by automating the slide creation process",
+              "Creating presentations in over 100 languages"
+            ],
+            "additionalDetails": "SlidesAI.io is known for its simplicity and speed. It integrates directly into Google Slides and PowerPoint, allowing users to create presentations without learning a new tool. Key features include text-to-presentation conversion, customizable color presets and fonts, and access to a premium stock image library. It offers a free plan with a limited number of presentations per month, and paid plans for increased usage and features.",
+            "link": "https://www.slidesai.io/"
+          },
+          {
+            "id": "storydoc",
+            "name": "Storydoc",
+            "category": "Interactive Presentation / Document Creation",
+            "description": "An AI-powered presentation platform that creates interactive, scroll-based experiences and dynamic documents that are trackable and optimized for various devices.",
+            "useCases": [
+              "Designing engaging sales decks, product demos, and client proposals",
+              "Crafting interactive investor decks and marketing collateral",
+              "Creating data-driven reports and white papers",
+              "Personalizing presentations for individual prospects with dynamic content",
+              "Tracking audience engagement in real-time with built-in analytics"
+            ],
+            "additionalDetails": "Storydoc distinguishes itself by turning traditional presentations into interactive, web-based documents. It offers AI-assisted content generation, a library of customizable templates, and integrations with CRM and calendar tools. A free tier is available, with paid plans (Starter, Pro, Enterprise) offering more features, customization, and advanced analytics.",
+            "link": "https://www.storydoc.com/"
+          },
+          {
+            "id": "pitchgrade_ai",
+            "name": "Pitchgrade AI",
+            "category": "Presentation Maker / Business Tool",
+            "description": "An AI-driven solution that assists entrepreneurs and business professionals in creating, refining, and analyzing persuasive pitch decks and presentations for funding and sales.",
+            "useCases": [
+              "Generating high-quality pitch decks for startups and investors",
+              "Creating sales decks and marketing presentations instantly from a prompt",
+              "Getting instant, actionable feedback on a presentation with the 'AI Presentation Review' tool",
+              "Refining presentations for crucial elements like problem identification, solution, and business strategy",
+              "Generating presentations in over 180 languages"
+            ],
+            "additionalDetails": "Pitchgrade AI focuses on helping users create impactful presentations quickly. Its key features include an AI Presentation Generator with over 300 presentation types and a unique AI Presentation Review tool that provides instant feedback. The platform's linguistic versatility supports a wide range of languages. It is available through a subscription model, though specific pricing details are often found upon signup.",
+            "link": "https://pitchgrade.com/"
+          }
 ];
