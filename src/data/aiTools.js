@@ -399,5 +399,69 @@ export const aiTools = [
             ],
             "additionalDetails": "Pitchgrade AI focuses on helping users create impactful presentations quickly. Its key features include an AI Presentation Generator with over 300 presentation types and a unique AI Presentation Review tool that provides instant feedback. The platform's linguistic versatility supports a wide range of languages. It is available through a subscription model, though specific pricing details are often found upon signup.",
             "link": "https://pitchgrade.com/"
-          }
+          },
+            {
+              "id": "pitch_com",
+              "name": "Pitch.com",
+              "category": "Presentation Software / Collaboration",
+              "description": "A collaborative presentation software that integrates AI features to help users create visually stunning and engaging presentations quickly and efficiently.",
+              "useCases": [
+                "Starting new presentations with AI-generated drafts from a prompt",
+                "Editing and cropping images with AI assistance",
+                "Generating presentation content, layouts, and designs using AI",
+                "Creating pitch decks, business proposals, and marketing presentations",
+                "Collaborating on presentations in real-time with team members",
+                "Tracking viewer engagement with built-in analytics"
+              ],
+              "additionalDetails": "Pitch.com focuses on combining design flexibility with team collaboration. Their AI features aim to augment rather than fully automate, keeping users in control. They emphasize ethical AI use, data privacy (GDPR compliant), and continuous monitoring of AI deployments. AI features are used for generating initial drafts and image manipulation. They offer various templates and integration options. Pricing typically includes free and paid tiers for advanced features and team functionalities.",
+              "link": "https://pitch.com/"
+            },
+            {
+              "id": "frederick_ai",
+              "name": "Frederick AI",
+              "category": "Startup Validation / Business Planning",
+              "description": "An AI-powered platform designed to help entrepreneurs quickly validate startup ideas, generate comprehensive business plans, and gather real-time market feedback.",
+              "useCases": [
+                "Validating startup ideas by gathering instant upvotes and comments",
+                "Generating detailed business plans including problem statements, target personas, and market size estimates",
+                "Identifying critical assumptions behind a startup idea to assess risks",
+                "Publishing ideas directly to social media platforms (Reddit, Facebook, LinkedIn) for user feedback",
+                "Analyzing comments and reactions for sentiment insights on public perception",
+                "Automating various startup tasks with AI-driven workers"
+              ],
+              "additionalDetails": "Frederick AI aims to streamline the early-stage startup journey. It combines business ideation with market feedback analysis to provide actionable insights. The platform integrates with social media for direct engagement. It offers a free tier with limited functionality and a Pro plan with extended features like more AI credits, private projects, and custom domains. It's designed for quick idea validation and may not replace in-depth market research for complex industries.",
+              "link": "https://completeaitraining.com/ai-tools/frederick-ai/"
+            },
+            {
+              "id": "mage_ai",
+              "name": "Mage AI",
+              "category": "Data Engineering / Data Pipelines",
+              "description": "A hybrid framework and data engineering workspace that enables developers to build, run, and manage data pipelines with integrated AI capabilities, combining notebook flexibility with modular code rigor.",
+              "useCases": [
+                "Building and orchestrating real-time and batch data pipelines using Python, SQL, and R",
+                "Extracting and synchronizing data from third-party sources",
+                "Transforming and loading data into data warehouses or data lakes",
+                "Automating and scaling data workflows with AI-powered insights",
+                "Generating code blocks and optimizing pipeline performance with AI",
+                "Analyzing data, uncovering insights, and creating visualizations with AI prompts"
+              ],
+              "additionalDetails": "Mage AI is built for data teams in the AI era, offering a collaborative environment. It features an intuitive notebook editor and focuses on engineering best practices for modular, reusable, and testable code. AI capabilities are deeply integrated to accelerate every step, from building pipelines to generating models. It offers flexible deployment options (cloud, VPC, on-prem) and integrates with tools like dbt. Available in an open-source version and a fully managed 'Mage Pro' platform.",
+              "link": "https://www.mage.ai/"
+            },
+            {
+              "id": "raphael_app",
+              "name": "Raphael.app",
+              "category": "Image Generator / AI Art",
+              "description": "A free and unlimited AI art generator that transforms text descriptions into stunning, high-resolution digital artwork with various artistic styles and detailed control options.",
+              "useCases": [
+                "Generating unique artistic images from text prompts without cost or limits",
+                "Creating photorealistic images, cinematic visuals, anime, digital art, and more",
+                "Experimenting with artistic styles like Low Poly, Line Art, Pixel Art, and Isometric",
+                "Applying different lighting and composition options (e.g., Dramatic, Golden Hour, Close Up)",
+                "Designing custom tattoo previews",
+                "Enhancing image quality and clarity, and adjusting colors"
+              ],
+              "additionalDetails": "Raphael.app prides itself on being completely free and offering unlimited creations without registration or watermarks. It is powered by models like FLUX.1-Dev. While it offers extensive style and parameter controls (negative prompts, artistic styles, lighting, composition), current outputs are limited to 1024x1024 pixels, and images are available for only 10 minutes. It's an excellent tool for casual users and artists looking to explore AI art freely.",
+              "link": "https://raphaelai.org/"
+            }
 ];
