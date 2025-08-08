@@ -463,5 +463,64 @@ export const aiTools = [
               ],
               "additionalDetails": "Raphael.app prides itself on being completely free and offering unlimited creations without registration or watermarks. It is powered by models like FLUX.1-Dev. While it offers extensive style and parameter controls (negative prompts, artistic styles, lighting, composition), current outputs are limited to 1024x1024 pixels, and images are available for only 10 minutes. It's an excellent tool for casual users and artists looking to explore AI art freely.",
               "link": "https://raphaelai.org/"
-            }
+            },
+              {
+                "id": "rork_app",
+                "name": "Rork.app",
+                "category": "No-Code App Builder",
+                "description": "An AI-powered no-code platform that enables users to create and publish fully functional, production-ready mobile applications for iOS and Android without writing any code.",
+                "useCases": [
+                  "Building mobile apps from simple text descriptions",
+                  "Creating internal tools for businesses (e.g., inspection apps, inventory trackers)",
+                  "Developing prototypes and minimum viable products (MVPs) quickly",
+                  "Designing apps for various industries, from property management to restaurant inspections",
+                  "Generating apps for social media, e-commerce, or lifestyle niches"
+                ],
+                "additionalDetails": "Rork.app generates native mobile apps using React Native technology. It supports publishing directly to the Apple App Store and Google Play Store and can integrate with existing designs from Figma. The platform handles complex technical work like app signing and deployment. Users can also export the generated code for free for further customization. It's a platform for entrepreneurs and non-technical users to bring their ideas to life fast.",
+                "link": "https://www.rork.app/"
+              },
+              {
+                "id": "deeplivecam",
+                "name": "DeepLiveCam",
+                "category": "Video Generation / Deepfake",
+                "description": "An open-source AI tool that allows for real-time deepfake face-swapping, enabling users to replace a face in a live video feed or pre-recorded content with another image or face.",
+                "useCases": [
+                  "Creating real-time face-swap videos for comedy and satire",
+                  "Impersonating public figures in live streams or videos",
+                  "Generating deepfake video content for various creative or malicious purposes"
+                ],
+                "additionalDetails": "DeepLiveCam is primarily known for its ability to perform face-swapping in real time, a capability that distinguishes it from older post-production deepfake software. It's an open-source tool, meaning it can be accessed and used by developers for various projects. Due to its nature, it is associated with both creative applications and a high risk of misuse for misinformation and scams.",
+                "link": "https://deeplivecam.net/"
+              },
+              {
+                "id": "prompt_cowboy",
+                "name": "Prompt Cowboy",
+                "category": "Prompt Engineering / Productivity",
+                "description": "An innovative tool that helps users transform vague, lazy concepts into highly-detailed and expert-level prompts for various large language models (LLMs) like ChatGPT, Claude, and Gemini.",
+                "useCases": [
+                  "Creating precise and powerful prompts for content creation and marketing",
+                  "Generating structured prompts for research and educational purposes",
+                  "Enhancing the quality and relevance of responses from generative AI tools",
+                  "Simplifying the process of prompt engineering for beginners",
+                  "Providing a structured approach to defining a task, knowledge, and objective for an AI"
+                ],
+                "additionalDetails": "Prompt Cowboy is a web-based platform that acts as a 'secret weapon' to improve AI interactions. It's user-friendly and helps streamline workflows for marketers, content creators, and researchers. It focuses on turning simple questions into detailed, multi-pillar prompts that yield more accurate and useful AI outputs. It is a simple tool to get better results from the AI models you already use.",
+                "link": "https://www.promptcowboy.ai/"
+              },
+              {
+                "id": "abacus_ai",
+                "name": "Abacus.AI",
+                "category": "Enterprise AI / AI Agent",
+                "description": "A comprehensive AI platform that provides an AI super-assistant and a full suite of tools for enterprises, including the creation of AI agents, data pipelines, predictive models, and more.",
+                "useCases": [
+                  "Building and managing end-to-end data pipelines for machine learning",
+                  "Developing and deploying custom AI agents to automate business processes",
+                  "Generating multi-modal content (images, videos, documents) with state-of-the-art models",
+                  "Performing predictive modeling and forecasting for business insights",
+                  "Creating tailored chatbots and workflows for specific business needs",
+                  "Analyzing documents and generating code with a multi-modal assistant"
+                ],
+                "additionalDetails": "Abacus.ai is a two-pronged platform with 'ChatLLM' for individual professionals and 'Abacus.AI Enterprise' for large organizations. The enterprise product acts as an 'AI brain' for businesses, offering features like anomaly detection, personalization, and discrete optimization. It provides access to a wide range of cutting-edge models like GPT-4o, Claude 3.5 Sonnet, and Kling AI. The pricing is structured with a per-user fee and a credit-based system for more intensive tasks.",
+                "link": "https://abacus.ai/"
+              }
 ];
