@@ -522,5 +522,65 @@ export const aiTools = [
                 ],
                 "additionalDetails": "Abacus.ai is a two-pronged platform with 'ChatLLM' for individual professionals and 'Abacus.AI Enterprise' for large organizations. The enterprise product acts as an 'AI brain' for businesses, offering features like anomaly detection, personalization, and discrete optimization. It provides access to a wide range of cutting-edge models like GPT-4o, Claude 3.5 Sonnet, and Kling AI. The pricing is structured with a per-user fee and a credit-based system for more intensive tasks.",
                 "link": "https://abacus.ai/"
-              }
+              },
+                {
+                  "id": "writehuman_ai",
+                  "name": "WriteHuman AI",
+                  "category": "Writing Assistant / Content Humanizer",
+                  "description": "An AI writing assistant that transforms AI-generated text into content that sounds natural, authentic, and human-like to bypass AI detection tools.",
+                  "useCases": [
+                    "Humanizing AI-generated articles, blog posts, and emails",
+                    "Enhancing the authenticity and tone of sales copy",
+                    "Avoiding penalties from AI detectors in SEO and academic contexts",
+                    "Polishing content for grammar, clarity, and style",
+                    "Creating unique and original content that resonates with readers"
+                  ],
+                  "additionalDetails": "WriteHuman AI focuses on adding a personal touch to AI-generated content. It includes a built-in AI detector that allows users to check their text and retry if it's flagged. The platform is designed to be user-friendly for content creators, bloggers, and SEO specialists. It offers a free trial and various subscription plans for access to premium features.",
+                  "link": "https://writehuman.ai/"
+                },
+                {
+                  "id": "flux_ai",
+                  "name": "Flux AI",
+                  "category": "Image Generator / AI Art",
+                  "description": "A state-of-the-art text-to-image model that generates highly detailed, high-quality images from text descriptions with exceptional prompt adherence and speed.",
+                  "useCases": [
+                    "Creating state-of-the-art images for art, design, and marketing",
+                    "Generating photorealistic images, architectural designs, and stylized art",
+                    "Creating images with accurate and clear text rendering",
+                    "Developing visuals for social media campaigns, websites, and ad content",
+                    "Producing unique artistic concepts and illustrations for personal or professional use"
+                  ],
+                  "additionalDetails": "Flux AI is known for its computational efficiency and its ability to follow complex prompts with high accuracy. It uses a unique technique called 'flow matching' to generate images faster than traditional diffusion models. Flux models are built on a powerful transformer-based architecture. It's available through platforms like getimg.ai, and various variants are accessible via APIs on HuggingFace and GitHub.",
+                  "link": "https://getimg.ai/blog/what-is-flux-1-the-breakthrough-ai-model-you-need-to-know"
+                },
+                {
+                  "id": "cerebras_coder_ai",
+                  "name": "Cerebras Coder AI",
+                  "category": "Coding Helper / AI Agent",
+                  "description": "A high-speed AI coding assistant that provides instant code generation and completions, powered by a frontier-level coding model and specialized hardware.",
+                  "useCases": [
+                    "Generating code snippets, functions, and entire features instantly",
+                    "Automating multi-step coding and agentic workflows",
+                    "Refactoring and debugging code with real-time assistance",
+                    "Writing unit tests and documentation",
+                    "Integrating into various IDEs and code editors (like Cursor and Cline) for a seamless workflow"
+                  ],
+                  "additionalDetails": "Cerebras Coder AI is notable for its exceptional speed, generating code at speeds of up to 2,000 tokens per second. It is powered by the Qwen3-Coder model, which is a leading open-weight coding model. The platform is designed to eliminate the latency often associated with other LLMs, keeping developers in a state of flow. It offers different tiers of access with varying token limits and is available through a subscription model.",
+                  "link": "https://www.cerebras.ai/blog/introducing-cerebras-code"
+                },
+                {
+                  "id": "snack_prompt",
+                  "name": "Snack Prompt",
+                  "category": "Prompt Engineering / Community",
+                  "description": "A community-driven platform and browser extension that curates, shares, and helps users create high-quality, effective prompts for various large language models.",
+                  "useCases": [
+                    "Discovering and exploring top-rated prompts for content creation, marketing, and business",
+                    "Creating and saving personalized prompts for repetitive tasks with 'Magic Keys'",
+                    "Sharing and selling prompts in a community-driven marketplace",
+                    "Generating AI images and automating workflows with integrated tools",
+                    "Getting inspiration for various topics, from health and wellness to business and academics"
+                  ],
+                  "additionalDetails": "Snack Prompt acts as a hub for prompt engineering. It features an upvoting system to surface the best prompts, a library organized by category, and a user-friendly interface. The platform is available as a web tool and a browser extension for direct integration with AI chatbots like ChatGPT. It offers a free version and a premium plan with advanced features.",
+                  "link": "https://snackprompt.com/"
+                }
 ];
