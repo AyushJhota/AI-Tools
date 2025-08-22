@@ -582,5 +582,68 @@ export const aiTools = [
                   ],
                   "additionalDetails": "Snack Prompt acts as a hub for prompt engineering. It features an upvoting system to surface the best prompts, a library organized by category, and a user-friendly interface. The platform is available as a web tool and a browser extension for direct integration with AI chatbots like ChatGPT. It offers a free version and a premium plan with advanced features.",
                   "link": "https://snackprompt.com/"
-                }
+                },
+                  {
+                    "id": "runway",
+                    "name": "Runway",
+                    "category": "Video Generation / Video Editor",
+                    "description": "An all-in-one creative AI platform that offers a suite of tools for generative video, image editing, and real-time collaboration, widely recognized for its Gen-2 and Gen-3 models.",
+                    "useCases": [
+                      "Generating videos from text prompts (text-to-video)",
+                      "Animating still images with motion (image-to-video)",
+                      "Applying advanced AI effects to existing videos (e.g., motion tracking, rotoscoping)",
+                      "Editing videos with a non-linear editor that integrates generative AI tools",
+                      "Creating professional videos for social media, film, and marketing",
+                      "Generating new images from text and reference images"
+                    ],
+                    "additionalDetails": "Runway is a leading name in the generative video space, known for its rapid innovation and high-quality outputs. The platform provides a range of tools including 'Gen-4 Turbo' for high-speed video creation and 'Act-Two' for performance capture. Runway operates on a credit-based system with various tiers, including a free plan with limited credits, and paid plans (Standard, Pro, Unlimited, and Enterprise) for increased usage, higher resolutions, and commercial rights.",
+                    "link": "https://runwayml.com/"
+                  },
+                  {
+                    "id": "checklist_genie",
+                    "name": "Checklist Genie",
+                    "category": "Productivity / Workflow Automation",
+                    "description": "A smart, AI-powered app that simplifies the creation and sharing of checklists, routines, and to-do lists using voice, images, and natural language.",
+                    "useCases": [
+                      "Creating and managing to-do lists and daily routines with voice commands",
+                      "Turning photos of notes or documents into actionable checklists",
+                      "Tracking daily, weekly, and monthly habits with visual streak tracking",
+                      "Collaborating on shared checklists with family, friends, or teammates",
+                      "Syncing tasks with a calendar to stay organized",
+                      "Generating smart list suggestions with built-in AI"
+                    ],
+                    "additionalDetails": "Checklist Genie is designed for quick, hands-free productivity. It automates list creation by leveraging AI to understand and structure spoken or photographed information. The app is available on a freemium model, offering a free version with a limited number of checklists and items, and a paid subscription for more features like team sharing, CSV export, and advanced AI functions.",
+                    "link": "https://checklistgenie.app/"
+                  },
+                  {
+                    "id": "hailuo_ai",
+                    "name": "Hailuo AI",
+                    "category": "Video Generation",
+                    "description": "An AI video generation tool that transforms text and images into engaging videos with a focus on subject consistency, natural human motion, and emotional expression.",
+                    "useCases": [
+                      "Creating high-quality videos from text descriptions (text-to-video)",
+                      "Converting static images into dynamic video scenes (image-to-video)",
+                      "Generating videos with consistent character appearances and emotional expressions",
+                      "Producing content for social media, marketing, and storytelling",
+                      "Creating videos with various artistic styles, from hyper-realistic to anime"
+                    ],
+                    "additionalDetails": "Hailuo AI is an AI video generator known for its user-friendly interface and focus on emotional realism and character consistency. It offers a variety of style options and a feature to refine prompts automatically. While it's powerful, some users have noted potential issues with generation failures or occasional visual bugs. It operates on a credit-based system, with a free tier and various paid plans. The tool is available as a mobile app and a web-based platform.",
+                    "link": "https://hailuoai.video/"
+                  },
+                  {
+                    "id": "leonardo_ai",
+                    "name": "Leonardo.ai",
+                    "category": "Image Generator / Creative Tool",
+                    "description": "A comprehensive AI platform for creative professionals that offers a suite of tools for generating, editing, and enhancing images and textures with a high degree of control and fine-tuned models.",
+                    "useCases": [
+                      "Generating unique artistic and photorealistic images from text descriptions",
+                      "Creating character portraits, game assets, and concept art",
+                      "Training custom AI models on personal images to create consistent characters or styles",
+                      "Editing and manipulating images in real-time with AI Canvas",
+                      "Upscaling and enhancing image quality with AI tools",
+                      "Generating textures and assets for 3D modeling and game development"
+                    ],
+                    "additionalDetails": "Leonardo.ai is highly regarded for its wide range of fine-tuned AI models and granular control over the creative process. It is a powerful platform for both beginners and experienced creators, featuring a community-driven model-sharing system and various paid plans for individuals and teams. The platform operates on a token-based system, with a free plan that provides a daily allowance of tokens and paid plans for increased usage and commercial rights.",
+                    "link": "https://leonardo.ai/"
+                  }
 ];
