@@ -704,5 +704,65 @@ export const aiTools = [
     ],
     "additionalDetails": "Golpo AI is part of the Y Combinator startup accelerator. Its unique value proposition is its ability to transform complex, written information from various sources into clear, professional-looking explainer videos with minimal user effort. It aims to solve the problem of content creation for internal training, onboarding, and documentation.",
     "link": "https://video.golpoai.com/"
-  }
+  },
+    {
+      "id": "offdeal_ai",
+      "name": "OffDeal",
+      "category": "Business / Financial Services",
+      "description": "An AI-native investment bank that automates and streamlines the mergers and acquisitions (M&A) process for small and medium-sized businesses (SMBs).",
+      "useCases": [
+        "Identifying potential acquisition targets using semantic search",
+        "Automating due diligence and research on target companies with AI agents",
+        "Crafting and sending personalized outreach emails to business owners",
+        "Streamlining deal logistics like creating promotional teasers and managing non-disclosure agreements",
+        "Providing a more efficient and cost-effective way for business owners to sell their companies"
+      ],
+      "additionalDetails": "OffDeal leverages generative AI and AI agents to handle the 'grunt work' of investment banking, allowing a small team of advisors to manage a higher volume of deals. It focuses on the lower middle-market, targeting businesses with revenues between $10M and $100M. It aims to reduce the typical M&A process from 18-24 months to just four months.",
+      "link": "https://offdeal.io/"
+    },
+    {
+      "id": "copycat_ai",
+      "name": "CopyCat (runcopycat.com)",
+      "category": "Workflow Automation / AI Agent",
+      "description": "A no-code browser automation platform that allows users to automate any web-based task by combining AI-driven prompts with deterministic actions like clicks and form fills.",
+      "useCases": [
+        "Automating repetitive tasks like data entry, invoice uploads, and data extraction from websites",
+        "Building and running web automation workflows without any coding knowledge",
+        "Scheduling tasks to run in the cloud 24/7",
+        "Integrating with legacy websites and portals that lack APIs",
+        "Automating complex financial processes like bank statement downloads and reconciliation"
+      ],
+      "additionalDetails": "CopyCat's key strength is its visual builder, which makes it accessible to non-technical users. It uses a hybrid approach, combining AI 'agentic' steps with reliable 'deterministic' steps for a robust automation process. It operates on a credit-based system with a free-forever plan and various paid tiers for higher usage.",
+      "link": "https://runcopycat.com/"
+    },
+    {
+      "id": "webhound",
+      "name": "Webhound",
+      "category": "Research / Data Collection",
+      "description": "An AI research agent that builds custom, structured datasets by autonomously conducting web research and extracting information from multiple sources.",
+      "useCases": [
+        "Automating market research and competitor analysis",
+        "Building lead lists for sales and marketing teams",
+        "Gathering and organizing data from public websites, social media, and forums",
+        "Collecting pricing, features, and customer reviews for product analysis",
+        "Finding and tracking specific data points, such as influencer emails and social media metrics"
+      ],
+      "additionalDetails": "Webhound is designed to save a significant amount of manual research time. Users simply describe the data they need in plain English, and the AI agent finds, extracts, and organizes it into a clean, exportable format (CSV, Excel, or JSON). Access is currently limited, with a free tier offering a small number of datasets per week.",
+      "link": "https://webhound.ai/"
+    },
+    {
+      "id": "comena",
+      "name": "Comena",
+      "category": "Business / B2B Automation",
+      "description": "An AI-powered B2B platform that automates the entire order processing workflow for distributors and manufacturers, from receiving an email to updating the ERP system.",
+      "useCases": [
+        "Automating the processing of purchase orders and inquiries from emails and PDFs",
+        "Intelligently matching free-text product descriptions to correct SKU numbers",
+        "Automating the creation of quotes and RFQs with thousands of line items",
+        "Reducing manual data entry for sales teams",
+        "Ensuring seamless integration and data flow with existing ERP systems"
+      ],
+      "additionalDetails": "Comena aims to free up sales teams from tedious administrative tasks so they can focus on active selling. The AI reads relevant data from documents, extracts it with high accuracy, and sends it to the ERP for approval. It is a specialized tool for B2B companies looking to improve efficiency and reduce errors in their order management.",
+      "link": "https://www.comena.ai/"
+    }
 ];
