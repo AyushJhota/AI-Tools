@@ -764,5 +764,65 @@ export const aiTools = [
       ],
       "additionalDetails": "Comena aims to free up sales teams from tedious administrative tasks so they can focus on active selling. The AI reads relevant data from documents, extracts it with high accuracy, and sends it to the ERP for approval. It is a specialized tool for B2B companies looking to improve efficiency and reduce errors in their order management.",
       "link": "https://www.comena.ai/"
-    }
+    },
+  {
+    "id": "camel_ai",
+    "name": "CAMEL-AI",
+    "category": "Multi-Agent System / AI Framework",
+    "description": "An open-source, multi-agent framework that enables autonomous and collaborative interactions between AI agents, allowing them to perform complex tasks by role-playing and communicating with each other.",
+    "useCases": [
+      "Automating complex workflows by assigning roles to multiple agents (e.g., data collection, analysis, and report generation)",
+      "Generating high-quality synthetic data for research and training AI models",
+      "Building and simulating large-scale agent systems to study emergent behaviors",
+      "Creating advanced AI-powered assistants and customer support systems",
+      "Serving as a research tool to explore the scaling laws of AI and multi-agent systems"
+    ],
+    "additionalDetails": "CAMEL-AI is known for its 'role-playing' approach, where agents are given specific roles (e.g., 'data analyst' and 'reporter') to solve problems collaboratively. It is a research-focused framework that is scalable, stateful, and supports various LLMs. It can be used for building complex applications with real-time interactions.",
+    "link": "https://www.camel-ai.org/"
+  },
+  {
+    "id": "design_arena",
+    "name": "Design Arena",
+    "category": "AI Evaluation / Human-in-the-Loop",
+    "description": "A web platform that evaluates the quality of AI-generated designs through crowdsourced human preference testing, providing a benchmark for AI models.",
+    "useCases": [
+      "Benchmarking and ranking AI models based on human votes for design quality",
+      "Conducting head-to-head comparisons of AI-generated UI, images, and videos",
+      "Providing public leaderboards to track the performance of different generative models",
+      "Offering private evaluations for companies to test and improve their AI models",
+      "Allowing users to vote and provide feedback on AI-generated content"
+    ],
+    "additionalDetails": "Design Arena is a specialized tool for researchers, developers, and companies working with generative AI. It uses a pairwise comparison method to collect human votes, which are then used to calculate Elo-style rankings. It focuses on a 'human-in-the-loop' approach to create a reliable and transparent benchmark.",
+    "link": "https://designarena.ai/"
+  },
+  {
+    "id": "cosmic_new",
+    "name": "Cosmic AI Platform",
+    "category": "Web Development / Content Management",
+    "description": "An AI-powered application development and deployment platform that enables users to build and ship full-stack applications and websites using natural language commands, with an integrated headless CMS.",
+    "useCases": [
+      "Generating content models and realistic sample content with AI",
+      "Building and deploying full-stack applications from a text prompt",
+      "Creating and managing company websites, blogs, and mobile apps with an AI-first CMS",
+      "Simplifying website localization and content management at scale",
+      "Providing an all-in-one workspace for content creation, development, and deployment"
+    ],
+    "additionalDetails": "Cosmic (cosmic.new) aims to be a single platform for both content and code. It uses AI to generate production-ready code in modern frameworks like Next.js and Vue.js, and offers one-click deployment to services like Vercel. Its features include a content studio for AI-assisted writing, a built-in database, and robust collaboration tools.",
+    "link": "https://www.cosmicjs.com/"
+  },
+  {
+    "id": "firebender",
+    "name": "Firebender",
+    "category": "Coding Helper",
+    "description": "A free and privacy-first AI assistant plugin built specifically for Android Studio, providing real-time, context-aware coding assistance to Android developers.",
+    "useCases": [
+      "Getting AI chat assistance for Android-specific codebases, logs, and emulator states",
+      "Generating code snippets, functions, and boilerplate code with AI",
+      "Debugging and refactoring Android code with context-aware suggestions",
+      "Ensuring code suggestions are up-to-date with the latest Android frameworks and libraries",
+      "Providing a seamless and integrated AI coding experience within the Android Studio IDE"
+    ],
+    "additionalDetails": "Firebender's primary value proposition is its deep integration with the Android development environment and its focus on privacy. Unlike other general-purpose coding assistants, it maintains up-to-date knowledge of the rapidly changing Android ecosystem. It is available as a free plugin and is widely praised by Android developers for its efficiency and specialized knowledge.",
+    "link": "https://www.firebender.com/"
+  }
 ];
