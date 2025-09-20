@@ -824,5 +824,67 @@ export const aiTools = [
     ],
     "additionalDetails": "Firebender's primary value proposition is its deep integration with the Android development environment and its focus on privacy. Unlike other general-purpose coding assistants, it maintains up-to-date knowledge of the rapidly changing Android ecosystem. It is available as a free plugin and is widely praised by Android developers for its efficiency and specialized knowledge.",
     "link": "https://www.firebender.com/"
-  }
+  },
+    {
+      "id": "rubbrband",
+      "name": "Rubbrband AI",
+      "category": "Image & Video Generation",
+      "description": "An all-in-one AI platform that combines image and video generation in one seamless tool, allowing users to create quality visual content with advanced models and an intuitive editor.",
+      "useCases": [
+        "Generating videos from text prompts (text-to-video)",
+        "Animating static images to create dynamic visuals",
+        "Generating high-quality images from text prompts",
+        "Editing and manipulating images with AI tools like background removal and object addition",
+        "Producing marketing visuals and social media content quickly and efficiently",
+        "Training custom AI models based on a specific style or brand"
+      ],
+      "additionalDetails": "Rubbrband acts as a central hub for various leading AI models like Runway, Minimax, and Kling, allowing users to compare and utilize different technologies in one place. It operates on a token-based system, offering daily free tokens and paid plans for more extensive use and commercial rights. It features an integrated editor for post-production and is designed for collaboration.",
+      "link": "https://www.rubbrband.com/"
+    },
+    {
+      "id": "paradigmai",
+      "name": "Paradigm AI",
+      "category": "Data Management / AI Agent",
+      "description": "An AI-driven platform that automates data entry and enriches datasets by autonomously gathering and structuring data from online sources.",
+      "useCases": [
+        "Automating data entry into spreadsheets from natural language prompts",
+        "Enriching datasets by pulling information from the web",
+        "Creating structured spreadsheets and lead lists for sales and marketing",
+        "Gathering data for market research and competitive analysis",
+        "Processing and organizing large amounts of data without manual effort"
+      ],
+      "additionalDetails": "Paradigm AI is known for its ability to fill spreadsheet cells at high speeds using intelligent agents. The platform is designed to be user-friendly, allowing users to interact with it using natural language. It's backed by Y Combinator and offers various pricing plans, including a free tier, and is designed to save businesses significant time on data processing.",
+      "link": "https://www.paradigmai.com/"
+    },
+    {
+      "id": "riveter",
+      "name": "Riveter (riveterhq.com)",
+      "category": "Data Enrichment / Business Intelligence",
+      "description": "An AI search agent that automates market research and data collection by crawling the internet, extracting, and enriching data from various online sources and documents.",
+      "useCases": [
+        "Conducting in-depth market research and competitor analysis",
+        "Extracting and summarizing key financial metrics from company filings and documents",
+        "Building and enriching datasets with custom data points for e-commerce, finance, and marketing",
+        "Automating due diligence and risk analysis for businesses",
+        "Accelerating the process of gathering intelligence for strategic decision-making"
+      ],
+      "additionalDetails": "Riveter is positioned as a 'copilot' for corporate strategy, helping growth-stage companies gather intelligence faster than traditional methods. It can navigate websites, read PDFs, and understand images to find and extract the most relevant information. The platform is backed by Y Combinator and is available through a demo-based pricing model.",
+      "link": "https://riveterhq.com/"
+    },
+      {
+        "id": "rowflow_ai",
+        "name": "RowFlow.ai",
+        "category": "Workflow Automation / Data Collection",
+        "description": "An AI-powered platform that replaces static web forms with dynamic, conversational interfaces that run over text, Slack, or embedded chat, increasing response rates and providing clean, structured data.",
+        "useCases": [
+          "Replacing traditional web forms for client intake, surveys, and registrations with conversational AI",
+          "Qualifying leads with AI-guided conversations",
+          "Collecting customer feedback and conducting market research",
+          "Automating internal data collection from employees and stakeholders",
+          "Integrating with existing systems to deliver clean, structured data without manual effort",
+          "Converting existing forms (e.g., Google Forms) into an AI-powered conversation"
+        ],
+        "additionalDetails": "RowFlow.ai is designed to solve the problem of low form completion rates and messy data. By using a conversational approach with automated follow-ups, it aims to improve user experience and reduce manual data cleaning. It is a Y Combinator-backed company, suggesting a focus on scalable, high-growth applications in workflow automation.",
+        "link": "https://rowflow.ai/"
+      }
 ];
