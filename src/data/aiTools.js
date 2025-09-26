@@ -886,5 +886,65 @@ export const aiTools = [
         ],
         "additionalDetails": "RowFlow.ai is designed to solve the problem of low form completion rates and messy data. By using a conversational approach with automated follow-ups, it aims to improve user experience and reduce manual data cleaning. It is a Y Combinator-backed company, suggesting a focus on scalable, high-growth applications in workflow automation.",
         "link": "https://rowflow.ai/"
-      }
+      },
+        {
+          "id": "ficra_ai",
+          "name": "Ficra.ai",
+          "category": "Product Analytics / Workflow Automation",
+          "description": "An AI-powered platform that provides a real-time, visual map and source of truth for every user journey, both inside and outside a product.",
+          "useCases": [
+            "Gaining real-time visibility into marketing and product funnels",
+            "Auditing every user touchpoint: ads, emails, A/B tests, push notifications, and in-app flows",
+            "Ensuring compliance by maintaining a complete historical record of user disclosures and consents",
+            "Helping product teams assess release quality and find blind spots in user flows",
+            "Providing visual and text-based search to find specific user touchpoints for design and compliance audits"
+          ],
+          "additionalDetails": "Ficra is a Y Combinator-backed company focused on helping product and compliance teams ship higher quality releases faster. Its AI automatically maps user experiences to reduce the time spent on manual auditing. It provides a visual, continuously updated view of everything users encounter, which is essential for compliance and product management.",
+          "link": "https://ficra.ai/"
+        },
+        {
+          "id": "momentic_ai",
+          "name": "Momentic AI",
+          "category": "Software Testing / Quality Assurance (QA)",
+          "description": "An AI-native automated testing platform that streamlines end-to-end (E2E), UI, API, and accessibility testing for modern web and mobile applications.",
+          "useCases": [
+            "Writing and running end-to-end tests in plain English using a low-code editor",
+            "Creating 'self-healing' tests where selectors adapt as the UI changes (intent-based locators)",
+            "Automating regression testing on every commit and pull request (CI/CD integration)",
+            "Using AI-powered assertions to validate non-deterministic outputs from Generative AI features",
+            "Monitoring production with E2E tests for real-time alerts on user impact"
+          ],
+          "additionalDetails": "Momentic positions itself as the modern alternative to traditional testing frameworks like Selenium and Cypress. It leverages multi-modal AI models to locate elements, craft assertions, and maintain test suites autonomously, significantly reducing QA overhead. It is a Y Combinator-backed company and offers a freemium model.",
+          "link": "https://momentic.ai/"
+        },
+        {
+          "id": "devv_ai",
+          "name": "Devv AI",
+          "category": "Coding Helper / Search Engine / AI Agent",
+          "description": "A developer-focused AI search engine and coding assistant that integrates with various LLMs (including GPT-4o and Claude 3.5) to provide context-aware solutions, code generation, and full-stack application building.",
+          "useCases": [
+            "Searching for coding solutions with accurate, web-sourced answers and live data from GitHub, Stack Overflow, and documentation",
+            "Generating, debugging, and refactoring code in various languages",
+            "Designing, building, and launching complete full-stack applications (often advertised as a 'no-code' builder)",
+            "Streamlining development workflows with a VS Code extension",
+            "Integrating directly with a user's GitHub repository for project-specific help"
+          ],
+          "additionalDetails": "Devv.ai is a comprehensive tool that functions as both a search engine and an agent, aiming to be a faster and more context-aware alternative to general-purpose chatbots for developers. It features a freemium model, with Pro subscriptions for unlimited access to top-tier AI models and advanced features.",
+          "link": "https://devv.ai/"
+        },
+        {
+          "id": "orchids",
+          "name": "Orchids",
+          "category": "No-Code Builder / Web Development",
+          "description": "An AI-powered no-code platform that allows users to build and publish beautiful, custom-designed websites and web applications using simple natural language prompts ('vibe coding').",
+          "useCases": [
+            "Building landing pages, portfolio websites, and web applications without writing code",
+            "Creating custom designs and layouts with AI to avoid a generic 'AI look'",
+            "Cloning existing websites with pixel-perfect accuracy for rapid prototyping",
+            "Generating and customizing conversational AI agents and workflows",
+            "Rapidly launching and iterating on web projects for founders, designers, and indie builders"
+          ],
+          "additionalDetails": "Orchids emphasizes 'vibe coding,' a process of using natural language to control design and functionality. It is positioned as an 'AI Fullstack Engineer' that simplifies the entire creation process, eliminating the need for complex drag-and-drop interfaces or coding. It is available through a web app and operates on a subscription model.",
+          "link": "https://www.orchids.app/"
+        }
 ];
