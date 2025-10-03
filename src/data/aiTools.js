@@ -946,5 +946,65 @@ export const aiTools = [
           ],
           "additionalDetails": "Orchids emphasizes 'vibe coding,' a process of using natural language to control design and functionality. It is positioned as an 'AI Fullstack Engineer' that simplifies the entire creation process, eliminating the need for complex drag-and-drop interfaces or coding. It is available through a web app and operates on a subscription model.",
           "link": "https://www.orchids.app/"
-        }
+        },
+          {
+            "id": "ideogram",
+            "name": "Ideogram AI",
+            "category": "Image Generator / Graphic Design",
+            "description": "A powerful AI-driven text-to-image generator, renowned for its superior ability to create high-quality images and render accurate, professional-looking typography in designs and logos.",
+            "useCases": [
+              "Generating high-quality logos, posters, and social media graphics with legible text",
+              "Creating highly realistic and stylized images from detailed text prompts",
+              "Using the 'Magic Prompt' feature to automatically enhance text prompts for better visual results",
+              "Maintaining consistent visual branding by uploading up to three reference images for style influence",
+              "Creative exploration, moodboarding, and generating visuals for marketing campaigns"
+            ],
+            "additionalDetails": "Ideogram has released several advanced models (up to Ideogram 3.0) and is favored for handling text within images—a task other generative models often struggle with. It supports multilingual text and offers fast generation speeds. The platform is accessible via a free tier with daily limits and paid plans for increased usage and premium features. It's available on the web and as a mobile app.",
+            "link": "https://ideogram.ai/"
+          },
+          {
+            "id": "chatterbox",
+            "name": "Chatterbox (by Resemble AI)",
+            "category": "Text-to-Speech (TTS) / Voice Cloning",
+            "description": "An open-source, multilingual, real-time text-to-speech model that generates professional-quality speech and can clone a voice with exceptional speed and fine-grained emotional control.",
+            "useCases": [
+              "Cloning voices from as little as five seconds of audio for consistent character voices",
+              "Generating natural and expressive audio for video narration, games, and podcasts",
+              "Creating real-time audio for voice assistants and interactive media due to ultra-low latency",
+              "Adjusting the emotional intensity (exaggeration) of the generated speech",
+              "Creating multilingual content with support for over 23 languages"
+            ],
+            "additionalDetails": "Chatterbox is MIT licensed, making it free for commercial use. It is distinguished by its 'Exaggeration Control' for emotional tuning and its speed, often outperforming leading proprietary models. It also includes a built-in 'Perceptual Watermarker' (PerTh) for responsible AI deployment and content traceability. Available on GitHub and Hugging Face.",
+            "link": "https://www.resemble.ai/chatterbox/"
+          },
+          {
+            "id": "hacksplaining",
+            "name": "Hacksplaining",
+            "category": "Security Training / Developer Education",
+            "description": "A comprehensive security training platform for web developers that teaches users how to hack real, vulnerable applications in the browser and then how to secure the code effectively.",
+            "useCases": [
+              "Training developers on major security vulnerabilities, including the OWASP Top 10",
+              "Providing a hands-on environment to hack live applications directly in the browser for practical experience",
+              "Offering concrete, actionable advice and code samples for fixing security flaws",
+              "Helping development teams meet compliance objectives, such as PCI compliance",
+              "Assessing and improving a development team's overall security expertise"
+            ],
+            "additionalDetails": "Hacksplaining focuses on a practical, hands-on learning approach by letting developers see how attacks work. It is used by hundreds of thousands of developers and offers content across all key vulnerabilities. It provides both free resources and enterprise licensing for organizations.",
+            "link": "https://www.hacksplaining.com/"
+          },
+          {
+            "id": "magic_loops",
+            "name": "Magic Loops",
+            "category": "Workflow Automation / AI Agent",
+            "description": "An AI automation platform that combines large language models (LLMs) with executable code, allowing users to build complex, repeatable workflows ('loops') using natural language descriptions.",
+            "useCases": [
+              "Automating system-to-system integrations and connecting various APIs (e.g., sending a text when a stock hits a price)",
+              "Generating code for custom API endpoints, web scrapers, and background tasks",
+              "Creating ChatGPT automations like email summarizers or tag classifiers",
+              "Building full-stack automation workflows that integrate LLM reasoning with deterministic code actions",
+              "Deploying and scheduling custom automations without needing deep coding expertise"
+            ],
+            "additionalDetails": "Magic Loops aims to bridge the gap between limiting no-code/low-code tools and complex full-code IDEs. Users describe the task, and the AI generates a 'Loop Outline' combining code and LLM blocks. It is a Y Combinator-backed company and offers a free tier with daily and monthly credits, with paid plans for scaling.",
+            "link": "https://magicloops.dev/"
+          }
 ];
