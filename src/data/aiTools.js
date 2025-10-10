@@ -1006,5 +1006,65 @@ export const aiTools = [
             ],
             "additionalDetails": "Magic Loops aims to bridge the gap between limiting no-code/low-code tools and complex full-code IDEs. Users describe the task, and the AI generates a 'Loop Outline' combining code and LLM blocks. It is a Y Combinator-backed company and offers a free tier with daily and monthly credits, with paid plans for scaling.",
             "link": "https://magicloops.dev/"
-          }
+          },
+  {
+    "id": "memories_ai",
+    "name": "Memories AI",
+    "category": "Video Analysis / Video Intelligence",
+    "description": "An innovative video understanding platform that uses a Large Visual Memory Model to analyze video content directly, allowing users to ask natural language questions and extract deep insights from their video libraries.",
+    "useCases": [
+      "Asking specific questions about video content (e.g., 'count the number of scenes' or 'identify when a specific dialogue occurs')",
+      "Quickly finding relevant clips from video libraries using simple search terms (Intelligent Clip Search)",
+      "Automating video creation, editing, and highlight extraction using conversational prompts",
+      "Performing advanced video analytics for enterprises (e.g., real-time threat detection, customer monitoring)",
+      "Analyzing social video trends and identifying suitable influencers (Video Marketer tool)"
+    ],
+    "additionalDetails": "Memories AI is developing the fundamental 'visual memory layer' for AI, enabling human-like comprehension of video data. It offers an API platform for developers and specialized tools for marketers (like Video Marketer). It features multimodal encoding (visual and audio) and is designed for cost-efficient, multi-video analysis.",
+    "link": "https://memories.ai/"
+  },
+  {
+    "id": "opal_ai",
+    "name": "Opal (Optimizely / Google Labs)",
+    "category": "AI Assistant / No-Code App Builder",
+    "description": "An AI-powered platform used in two contexts: (1) **Optimizely Opal** for marketing automation and insights; and (2) **Google Labs Opal** for building functional mini-applications and workflows from natural language prompts.",
+    "useCases": [
+      "Automating marketing workflows, generating content, and optimizing A/B tests (Optimizely)",
+      "Building simple, functional, full-stack mini-applications and workflows using a conversational interface (Google Labs)",
+      "Generating a visual, node-based workflow diagram from a text prompt for easy editing",
+      "Creating AI-powered study aids, flashcards, and quizzes from uploaded documents (Opal Study Assistant)",
+      "Running AI assistants entirely on-device for enhanced privacy and speed (Desktop version)"
+    ],
+    "additionalDetails": "The name 'Opal' is used by several different AI products. The most prominent enterprise use is **Optimizely Opal** (a unified AI for DXP), and a notable builder tool is **Google Labs Opal** (which uses Gemini). The core idea across all versions is using AI to interpret natural language instructions and automate multi-step tasks or application creation.",
+    "link": "https://opal.my/"
+  },
+  {
+    "id": "head_ai",
+    "name": "Head AI",
+    "category": "Influencer Marketing / AI Agent",
+    "description": "An AI-powered agent that fully automates the influencer marketing process for brands and agencies, from matching and negotiation to content production and results tracking.",
+    "useCases": [
+      "Launching expert-level influencer campaigns instantly from a website URL prompt",
+      "Matching brands with vetted influencers using analysis of over 237 behavioral signals",
+      "Automating price negotiation, contract signing, and content submission workflows",
+      "Tracking real-time performance and optimizing campaigns with AI-driven insights",
+      "Ensuring content is on-brand and compliant through AI monitoring and multi-round revisions"
+    ],
+    "additionalDetails": "Head AI aims to bring 'Uber-like' transparency and efficiency to the creator economy. It runs the entire campaign end-to-end, with brands only needing to review and approve. It operates on a 'Pay for Performance' model, often guaranteeing a refund if deliverables are not met.",
+    "link": "https://headai.io/"
+  },
+  {
+    "id": "lindy_ai",
+    "name": "Lindy AI",
+    "category": "Workflow Automation / AI Agent / Scheduling",
+    "description": "A platform for creating custom, personalized AI agents (or 'AI employees') that automate a wide range of tasks, including scheduling, email management, and full-stack workflow automation across numerous apps.",
+    "useCases": [
+      "Creating an AI assistant to handle scheduling, booking, rescheduling, and time zone management",
+      "Automating employee shift scheduling and ensuring labor law compliance",
+      "Triaging and drafting replies for emails, leading to 'inbox zero' consistently",
+      "Automating multi-step workflows, data entry, report generation, and compliance monitoring",
+      "Serving as an executive assistant to manage meetings, take notes, and run follow-ups"
+    ],
+    "additionalDetails": "Lindy's core offering is its 'AI Teammate' builder, which connects LLMs (like GPT-4) to over 3,000 apps. This allows for complex, multi-trigger workflows that improve with feedback. It is available through a subscription model and emphasizes saving users hours per week on administrative and logistical tasks.",
+    "link": "https://www.lindy.ai/"
+  }
 ];
