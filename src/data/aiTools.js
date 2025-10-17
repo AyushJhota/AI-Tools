@@ -1066,5 +1066,65 @@ export const aiTools = [
     ],
     "additionalDetails": "Lindy's core offering is its 'AI Teammate' builder, which connects LLMs (like GPT-4) to over 3,000 apps. This allows for complex, multi-trigger workflows that improve with feedback. It is available through a subscription model and emphasizes saving users hours per week on administrative and logistical tasks.",
     "link": "https://www.lindy.ai/"
-  }
+  },
+    {
+      "id": "storybook_ai",
+      "name": "Storybook AI",
+      "category": "Generative Storytelling / Interactive Media",
+      "description": "An interactive storytelling platform that generates living, dynamic worlds and stories, allowing users to converse with characters and embody a role within the narrative.",
+      "useCases": [
+        "Creating highly customized, immersive story worlds with defined characters, objectives, and environments",
+        "Experiencing dynamic plots where characters react realistically to user actions and motivations",
+        "Generating digital comics and audio stories to visualize the narrative",
+        "Developing character relationships that persist across multiple stories within the same world",
+        "Customizing writing style, pace, characters, and abilities for a personalized roleplaying experience"
+      ],
+      "additionalDetails": "Storybook AI aims to go beyond simple chatbot roleplaying by giving the user's persona a place in a dynamic world with real stakes (the character can fail or be injured). The platform allows users to import full books or create stories from simple titles. The name is also used for a **Google Gemini feature** that generates 10-page illustrated stories with voiceover, and an **addon for the Storybook component library** for React.",
+      "link": "https://www.storybookai.app/"
+    },
+    {
+      "id": "imagine_art",
+      "name": "Imagine Art",
+      "category": "Image Generator / Creative Tool",
+      "description": "A comprehensive AI art generator offering multiple advanced models for creating hyper-realistic images, artistic visuals, and professional graphics from text prompts.",
+      "useCases": [
+        "Generating ultra-realistic human portraits, landscapes, and product mockups with high textural accuracy",
+        "Producing images in over 90 styles (e.g., anime, photorealistic, cinematic) with multi-style selection and refinement",
+        "Upscaling, sharpening, and editing images with built-in AI tools (e.g., background removal, image remix)",
+        "Using image references to guide the style, composition, and lighting of new generations",
+        "Accessing a wide range of cutting-edge models like Flux, Imagine V5, and Ideogram for varied outputs"
+      ],
+      "additionalDetails": "Imagine Art is known for its versatility and high level of detail, making it popular with both artists and content creators. It features an easy-to-use interface, a wide selection of models, and advanced controls like Negative Prompt and CFG Scale. It operates on a credit-based system, with a free tier and various paid plans for commercial use and higher limits.",
+      "link": "https://www.imagine.art/"
+    },
+    {
+      "id": "hire_flow",
+      "name": "Hire Flow (hire-flow.co)",
+      "category": "Career Advancement / Job Search Automation",
+      "description": "A premium AI platform that automates the job search and application process for professionals, intelligently matching users to high-quality opportunities and managing strategic applications.",
+      "useCases": [
+        "Automating job searching and application to quality roles across 100+ job boards 24/7",
+        "Intelligently matching career goals and experience to suitable opportunities (Intelligent Career Matching)",
+        "Tailoring applications for maximum impact while the user focuses on life and work",
+        "Gaining access to hidden job markets and premium roles",
+        "Providing career-focused optimization and strategic insights for job seekers"
+      ],
+      "additionalDetails": "This platform emphasizes 'quality over quantity' in the job search process, targeting professionals aiming for higher salaries and career growth. It offers a premium service with a focus on delivering measurable career advancement. Note: A different company named 'Hireflow' focused on recruitment automation for businesses has closed.",
+      "link": "https://hireflow.net/"
+    },
+      {
+        "id": "figma_make",
+        "name": "Figma Make",
+        "category": "Design-to-Code / Functional Prototyping",
+        "description": "An AI-driven, 'prompt-to-app' feature within the Figma ecosystem that allows users to bring ideas and existing Figma designs to life as functional, interactive web apps and prototypes.",
+        "useCases": [
+          "Turning static design files (frames, components) into working, functional web prototypes",
+          "Generating a 'First Draft' of a complete screen or interactive UI from a simple natural language prompt",
+          "Iterating and refining prototypes through conversation with the AI chat (vibe coding) or the visual editor",
+          "Ensuring AI-generated designs adhere to a brand's specific design system, components, and tokens",
+          "Exporting the generated code for use in development environments"
+        ],
+        "additionalDetails": "Figma Make is part of the broader Figma AI toolkit. It is unique because it can respect a user's existing design system when generating new components, ensuring consistency. It has two main interfaces: the AI chat and a visual preview/editor where users can directly manipulate elements. It is primarily available to users on paid Figma plans, with some limitations on the free (Starter) tier.",
+        "link": "https://www.figma.com/make"
+      }
 ];
