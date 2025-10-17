@@ -1099,7 +1099,7 @@ export const aiTools = [
     },
     {
       "id": "hire_flow",
-      "name": "Hire Flow (hire-flow.co)",
+      "name": "HireFlow",
       "category": "Career Advancement / Job Search Automation",
       "description": "A premium AI platform that automates the job search and application process for professionals, intelligently matching users to high-quality opportunities and managing strategic applications.",
       "useCases": [
