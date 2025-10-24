@@ -1126,5 +1126,63 @@ export const aiTools = [
         ],
         "additionalDetails": "Figma Make is part of the broader Figma AI toolkit. It is unique because it can respect a user's existing design system when generating new components, ensuring consistency. It has two main interfaces: the AI chat and a visual preview/editor where users can directly manipulate elements. It is primarily available to users on paid Figma plans, with some limitations on the free (Starter) tier.",
         "link": "https://www.figma.com/make"
-      }
+      },
+  {
+    "id": "ni3_app",
+    "name": "NI3 (AI Creator Prompts)",
+    "category": "Image Generation / Prompt Engineering",
+    "description": "A resource or guide, often associated with a user or community, that provides detailed, complex prompts and resources for generating high-quality AI images, particularly in the realm of AI influencers and stylized art.",
+    "useCases": [
+      "Generating photorealistic images of specific types of characters (e.g., Indian or Pakistani models) with detailed physical and clothing descriptions",
+      "Creating stylized 3D neon art and custom character visuals for content creation",
+      "Developing detailed negative prompts to refine image quality and avoid common AI generation flaws",
+      "Creating fictional influencer profiles and bios using language models like ChatGPT",
+      "Providing a starting point for advanced prompt engineering on platforms like NightCafe and Tensor.art"
+    ],
+    "additionalDetails": "NI3 appears to function as a knowledge base or collection of 'power prompts' for users focused on generating specific, high-demand visual content, often in the creator economy space. While not a standalone AI model, it acts as a valuable tool for optimizing outputs on various public image generators. The name is also seen in association with the creation of AI thumbnail makers.",
+    "link": "https://creator.nightcafe.studio/creation/rXMTP5Mr49x6eXuvkpMT"
+  },
+  {
+    "id": "fakeyou",
+    "name": "FakeYou",
+    "category": "Text-to-Speech (TTS) / Voice Cloning",
+    "description": "An AI-powered platform for text-to-speech (TTS) and voice-to-voice conversion, famous for its large community-driven library of deepfake character and celebrity voices.",
+    "useCases": [
+      "Generating dialogue in the voice of celebrity, fictional, or meme characters for entertainment and content creation",
+      "Creating AI-generated voiceovers for YouTube videos, podcasts, and animated content",
+      "Transforming a user's voice into a chosen character or celebrity voice (Voice to Voice Conversion)",
+      "Experimenting with zero-shot voice cloning and custom voice creation (Voice Designer Beta)"
+    ],
+    "additionalDetails": "FakeYou offers a massive, constantly expanding voice library and a user-friendly interface. It offers a free tier with basic features and normal processing priority, with paid plans (Plus, Pro, Elite) for faster processing, longer audio clips, and the ability to upload or share private voice models. Due to the nature of its voice library, it is primarily used for entertainment and not recommended for professional, highly realistic voice cloning.",
+    "link": "https://fakeyou.com/"
+  },
+  {
+    "id": "micha",
+    "name": "Michael AI (Micha)",
+    "category": "Investment Research / Financial Assistant",
+    "description": "An AI-powered investment research assistant designed to provide users with seamless and user-friendly access to investment information, insights, and market analysis.",
+    "useCases": [
+      "Assisting individual investors with quick, complex investment-related queries",
+      "Conducting user-friendly investment research and analysis",
+      "Navigating complex investment landscapes with AI-driven insights",
+      "Providing a simplified interface for finding relevant financial information (e.g., stock data, company news)"
+    ],
+    "additionalDetails": "Michael AI (or Micha) positions itself as the world's first artificially intelligent investment analyst, aiming to democratize access to financial data and analysis typically reserved for institutional investors. It is focused on a seamless user experience for investment decision-making. It is available on a free tier.",
+    "link": "https://www.success.ai/ai-tools/michael-ai"
+  },
+  {
+    "id": "cluely",
+    "name": "Cluely",
+    "category": "Sales & Recruiting Copilot / Real-Time Assistant",
+    "description": "A real-time AI assistant that listens to live sales and recruiting calls/meetings and provides on-screen, context-aware guidance, suggestions, and battlecards to the user.",
+    "useCases": [
+      "Providing live suggestions for handling common sales objections and salary negotiations",
+      "Running real-time fact checks on candidate/prospect responses during interviews/calls",
+      "Syncing with company knowledge bases to provide instant, technical answers to the user",
+      "Generating automated meeting summaries, action items, and personalized follow-up emails post-call",
+      "Allowing managers to observe and coach calls in real-time (Call Shadow Mode) and track usage analytics"
+    ],
+    "additionalDetails": "Cluely is designed to act as an 'invisible' assistant: it does not join the meeting as a bot and is undetectable during screen sharing, keeping the conversation natural. It integrates with major platforms like Zoom and Google Meet, and CRMs like Salesforce. It offers a free Starter plan with limited features, and Pro and Enterprise plans for unlimited access, latest models, and advanced compliance/security.",
+    "link": "https://cluely.com/"
+  }
 ];
