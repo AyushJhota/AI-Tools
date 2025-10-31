@@ -1184,5 +1184,65 @@ export const aiTools = [
     ],
     "additionalDetails": "Cluely is designed to act as an 'invisible' assistant: it does not join the meeting as a bot and is undetectable during screen sharing, keeping the conversation natural. It integrates with major platforms like Zoom and Google Meet, and CRMs like Salesforce. It offers a free Starter plan with limited features, and Pro and Enterprise plans for unlimited access, latest models, and advanced compliance/security.",
     "link": "https://cluely.com/"
-  }
+  },
+    {
+      "id": "trybezel",
+      "name": "Bezel",
+      "category": "E-commerce / Generative AI",
+      "description": "An AI platform that allows fashion and apparel e-commerce brands to create realistic, studio-quality images and videos of clothing on AI-generated human avatars.",
+      "useCases": [
+        "Generating studio-quality static images of clothing on diverse human models instantly",
+        "Creating photorealistic videos of apparel on avatars for ads and social media",
+        "Replacing costly and time-consuming traditional photo/video shoots",
+        "Creating highly customized ad visuals tailored to specific customer segments",
+        "Generating viral content and UGC scripts (UGC scripting feature)"
+      ],
+      "additionalDetails": "This tool is backed by Y Combinator and focuses on the apparel and fashion industry. Users simply upload clothing images, and the AI handles the model selection, posing, and rendering without complex prompting. It aims to reduce production costs and increase the variety of marketing content available to brands. Note: The name 'Bezel' is also used for a 3D/AR/VR prototyping tool and a customer service platform.",
+      "link": "https://www.trybezel.com/"
+    },
+    {
+      "id": "notte_cc",
+      "name": "Notte",
+      "category": "Web Automation / AI Agent Framework",
+      "description": "A comprehensive framework and API for building and deploying reliable Web AI Agents that can act, scrape, and automate complex, browser-based workflows at scale.",
+      "useCases": [
+        "Automating human-centric, browser-based workflows (e.g., form submissions, online payments, CAPTCHA solving)",
+        "Conducting robust, large-scale web scraping for competitive intelligence and market research",
+        "Creating custom AI agents that can authenticate and manage accounts using secure vaults and digital personas",
+        "Developing hybrid automation workflows that combine traditional scripts with AI reasoning for cost efficiency",
+        "Automating e-commerce tasks like price monitoring and product purchasing using virtual credit cards"
+      ],
+      "additionalDetails": "Notte is built for developers and enterprises, offering a full-stack platform for secure, scalable web automation. It features 'Agent Personas' (unique emails/phone numbers for account creation), a 'Secret Vault' for credentials, and various stealth features. It operates on a credit-based system with a free tier and tiered paid plans (Pro, Enterprise) for increased scale and dedicated support.",
+      "link": "https://www.notte.cc/"
+    },
+    {
+      "id": "midoo_ai",
+      "name": "Midoo AI",
+      "category": "Language Learning / AI Agent",
+      "description": "The world's first AI language learning agent that uses Dynamic Generation technology to create personalized, adaptive, and immersive conversational experiences for language learners.",
+      "useCases": [
+        "Engaging in real-time, adaptive conversations that feel like real life for fluency practice",
+        "Receiving instant, dynamic, AI-driven feedback tailored to individual mistakes, pace, and interests",
+        "Practicing language in custom, interactive scenarios and environments via 'Dynamic Theater' (e.g., ordering at a Paris café)",
+        "Tracking long-term progress, mood, and knowledge gaps to create an evolving learning path",
+        "Preparing for specific professional or academic language goals with targeted content"
+      ],
+      "additionalDetails": "Midoo AI moves beyond static, pre-scripted language courses by operating as a fully agentic tutor. It continuously tracks the user and provides long-term memory reinforcement. It is available on mobile devices and utilizes a team of specialized AI agents for different learning functions. It offers a freemium model with paid plans for full access to premium features.",
+      "link": "https://www.midoo.ai/"
+    },
+    {
+      "id": "recraft_ai",
+      "name": "Recraft.ai",
+      "category": "Image & Vector Design / Brand Consistency",
+      "description": "An AI-powered design platform for professionals that generates consistent, high-quality images, vector art, illustrations, and 3D graphics, with a strong focus on maintaining brand identity.",
+      "useCases": [
+        "Generating scalable, editable vector graphics (logos, icons) from text prompts",
+        "Converting existing raster images (PNG, JPG) into clean, editable SVG vector files in one click",
+        "Maintaining consistent brand style and color palettes across multiple assets and campaigns",
+        "Creating photorealistic images, stylized illustrations, and product mockups",
+        "Using built-in editing tools like image upscaler, background remover, and inpainting/outpainting"
+      ],
+      "additionalDetails": "Recraft is built on its own trained AI model (V3) to ensure superior visual consistency, unlike other general image generators. It offers an infinite canvas, a library of reusable custom styles, and accurate text generation for designs. It provides a generous free tier and paid plans for private images, commercial rights, and unlimited creative upscale features.",
+      "link": "https://www.recraft.ai/"
+    }
 ];
