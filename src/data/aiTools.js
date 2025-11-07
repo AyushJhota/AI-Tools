@@ -1244,5 +1244,64 @@ export const aiTools = [
       ],
       "additionalDetails": "Recraft is built on its own trained AI model (V3) to ensure superior visual consistency, unlike other general image generators. It offers an infinite canvas, a library of reusable custom styles, and accurate text generation for designs. It provides a generous free tier and paid plans for private images, commercial rights, and unlimited creative upscale features.",
       "link": "https://www.recraft.ai/"
-    }
+    },
+      {
+        "id": "creao_ai",
+        "name": "Creao AI",
+        "category": "No-Code App Builder / AI Agent",
+        "description": "A low-code/no-code platform that builds custom, full-stack, AI-native applications and copilots from natural language descriptions, complete with backend infrastructure and hosting.",
+        "useCases": [
+          "Building custom internal software and dashboards without traditional coding (No Code)",
+          "Automating complex business logic and workflows with a conversational interface",
+          "Creating AI copilots embedded directly into the app that can respond, act, and automate tasks",
+          "Integrating APIs seamlessly and connecting data across different applications",
+          "Accelerating development of production-ready apps for entrepreneurs, product managers, and engineers"
+        ],
+        "additionalDetails": "Creao AI manages the full infrastructure (backend, databases, hosting) and features a built-in, context-aware AI copilot in every app. It supports integrations via standard APIs and the Model Context Protocol (MCP). It offers a free tier for basic features and paid plans (Pro) starting around $12.50/month for advanced features and source code visibility.",
+        "link": "https://creao.ai/"
+      },
+      {
+        "id": "csv2chat",
+        "name": "CSV2Chat (or ChatCSV)",
+        "category": "Data Analysis / Visualization",
+        "description": "An AI-powered tool that allows users to upload a CSV file and analyze, summarize, and visualize the data using simple natural language conversation.",
+        "useCases": [
+          "Asking complex questions about data and receiving instant answers (e.g., 'What was the click-through rate for our last five email campaigns?')",
+          "Generating various chart types (bar charts, line graphs, pie charts) from text commands",
+          "Quickly analyzing customer behavior, sales trends, and financial transactions",
+          "Gaining data insights without needing complex coding or spreadsheet formulas"
+        ],
+        "additionalDetails": "CSV2Chat (and similar tools like ChatCSV) eliminates the need for manual pivot tables or programming skills. A key feature is data security, where the actual CSV data often remains on the user's side, with only metadata being processed by the server. It typically offers a free tier with daily usage limits and a premium plan with a personal dashboard and advanced features.",
+        "link": "https://www.csvtochat.com/"
+      },
+      {
+        "id": "vibeflow_ai",
+        "name": "VibeFlow AI",
+        "category": "Full-Stack Development / Visual Backend Builder",
+        "description": "An AI-powered, spec-driven platform that accelerates full-stack web application development by translating product requirements into functional, editable TypeScript code, with a focus on a visual backend builder.",
+        "useCases": [
+          "Generating a full-stack application (frontend + backend) from a natural language prompt",
+          "Visually designing and managing backend logic (API endpoints, database schemas) using a node-based editor",
+          "Exporting clean, production-ready TypeScript code to GitHub for version control and advanced development",
+          "Creating custom workflows for user authentication, payment processing, and AI agent integration",
+          "Streamlining development by automatically generating boilerplate code and integrating front-to-back smoothly"
+        ],
+        "additionalDetails": "VibeFlow is designed to blend no-code (visual builder) with pro-code (clean exportable code) for developers and entrepreneurs. It features 'code-aware AI agents' and a 'spec-driven' approach, using project documents as a source of truth. It offers a free Starter plan and affordable paid plans (Pro).",
+        "link": "https://vibeflow.ai/"
+      },
+      {
+        "id": "framer_com",
+        "name": "Framer",
+        "category": "Web Design / No-Code Builder",
+        "description": "A professional no-code website builder that uses AI to quickly design, build, and publish fully responsive, custom websites and landing pages.",
+        "useCases": [
+          "Generating an initial page structure and responsive layout instantly using the 'Wireframer' tool and a text prompt",
+          "Building advanced interactions, animations, and components using the AI 'Workshop' feature without writing code",
+          "Translating an entire website into multiple languages with a single click (AI Translate)",
+          "Managing and updating content effortlessly with a built-in CMS and robust SEO features",
+          "Designing bold websites with smooth effects, interactions, and a focus on visual quality"
+        ],
+        "additionalDetails": "Framer is the design tool for websites, offering fast publishing and scaling capabilities. Its AI features are integrated directly into the design canvas, accelerating the workflow for designers. It offers a free tier with core features, and paid plans for custom domains, collaboration, and professional publishing features.",
+        "link": "https://www.framer.com/"
+      }
 ];
