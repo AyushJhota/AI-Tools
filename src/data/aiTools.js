@@ -1303,5 +1303,66 @@ export const aiTools = [
         ],
         "additionalDetails": "Framer is the design tool for websites, offering fast publishing and scaling capabilities. Its AI features are integrated directly into the design canvas, accelerating the workflow for designers. It offers a free tier with core features, and paid plans for custom domains, collaboration, and professional publishing features.",
         "link": "https://www.framer.com/"
-      }
+      },
+        {
+          "id": "neural_agent",
+          "name": "NeuralAgent",
+          "category": "AI Agent / Desktop Automation",
+          "description": "The AI Computer Interface. An autonomous AI agent that runs directly on your desktop, performing complex, multi-step tasks across any application, mimicking human actions like clicking, typing, and navigating.",
+          "useCases": [
+            "Mastering the Operating System (managing files, installing software, optimizing settings) via natural language commands",
+            "Automating cross-application workflows (e.g., scrape web data, format in Excel, and generate reports)",
+            "Launching SaaS products, E-commerce stores, or mobile games from a single concept/idea",
+            "Designing presentations (extracting key insights, generating visuals, and building slide decks)",
+            "Achieving Total Inbox Control by reading, categorizing, and drafting intelligent replies",
+            "Running long-running tasks like rendering videos or model training 24/7 in the background"
+          ],
+          "additionalDetails": "NeuralAgent is platform-agnostic, working seamlessly across **Windows, macOS, and Linux**. It is designed with a **Privacy-First** approach and uses **Context Awareness** to understand the user's workflow. Pricing includes a **Free** tier (limited core assistance), **Pro** ($20/month), **Pro+** ($60/month), and **Elite** ($200/month) for higher limits, extended context, and advanced features. It positions itself as an AI Teammate that breaks the mold of chatbots stuck in a sandbox.",
+          "link": "https://www.getneuralagent.com/"
+        },
+        {
+          "id": "3d_logolab",
+          "name": "3D LogoLab",
+          "category": "3D Design / Brand Assets",
+          "description": "A browser-based, AI-powered tool that instantly converts static 2D logos into interactive 3D rotating animations with a focus on customizable materials and textures.",
+          "useCases": [
+            "Instantly transforming 2D logo files into dynamic 3D representations without manual modeling",
+            "Applying ultra-realistic materials (chrome, gold, metallic, glossy) to logos for enhanced visual appeal",
+            "Generating 360-degree rotating video animations for social media and websites",
+            "Exporting final designs as high-quality images, videos, or 3D model files for further use",
+            "Creating eye-catching 3D assets for digital advertisements and pitch presentations"
+          ],
+          "additionalDetails": "The tool is entirely browser-based, eliminating the need for complex software installation or lengthy rendering times. Users can adjust 3D parameters like thickness and depth. It is offered on a freemium model, allowing users to try basic features for free and unlock premium materials and export options with a paid plan.",
+          "link": "https://www.3dlogolab.io/"
+        },
+        {
+          "id": "recraft_ai",
+          "name": "Recraft.ai",
+          "category": "Image & Vector Design / Brand Consistency",
+          "description": "An AI-powered design platform that generates consistent, high-quality images, illustrations, and scalable vector art (SVG), with a strong focus on maintaining specific brand styles and color palettes.",
+          "useCases": [
+            "Generating scalable, editable vector graphics (logos, icons) from text prompts",
+            "Converting existing raster images (PNG, JPG) into clean, editable SVG vector files in one click",
+            "Maintaining consistent brand style and color palettes across multiple assets and campaigns",
+            "Creating photorealistic images, stylized illustrations, and product mockups",
+            "Using built-in editing tools like image upscaler, background remover, and inpainting/outpainting"
+          ],
+          "additionalDetails": "Recraft is built on its own trained AI model (V3) and is one of the few platforms that can reliably generate clean, scalable **vector graphics (SVG)** from a text prompt. It offers an infinite canvas, a library of reusable custom styles, and accurate text generation for designs. It provides a generous free tier (with public images and limited credits) and paid plans (Pro/Teams) for private images, commercial rights, and unlimited features like Creative Upscale.",
+          "link": "https://www.recraft.ai/"
+        },
+        {
+          "id": "tailornova",
+          "name": "Tailornova",
+          "category": "3D Fashion Design / Pattern Making",
+          "description": "Online 3D fashion design software that uses parametric and anthropometric algorithms, often incorporating machine learning, to automate apparel design, pattern development, and 3D visualization.",
+          "useCases": [
+            "Creating unlimited 3D clothing designs quickly and easily in a web browser",
+            "Generating customized 2D sewing patterns for manufacturing or personal use based on user-defined measurements and styles",
+            "Designing complex garments without the need for traditional manual pattern drafting",
+            "Shortening the supply chain and lead times for small fashion businesses and designers",
+            "Creating end-to-end 3D fashion configurators for e-commerce"
+          ],
+          "additionalDetails": "Tailornova is a patent-pending system focused on bridging the gap between 3D design and manufacturable 2D patterns. It uses algorithms to ensure fit and proper garment construction based on body geometry. This speeds up the design and development cycle considerably. It operates on a subscription model.",
+          "link": "https://tailornova.com/"
+        }
 ];
