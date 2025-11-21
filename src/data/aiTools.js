@@ -1364,5 +1364,65 @@ export const aiTools = [
           ],
           "additionalDetails": "Tailornova is a patent-pending system focused on bridging the gap between 3D design and manufacturable 2D patterns. It uses algorithms to ensure fit and proper garment construction based on body geometry. This speeds up the design and development cycle considerably. It operates on a subscription model.",
           "link": "https://tailornova.com/"
-        }
+        },
+          {
+            "id": "pacdora",
+            "name": "Pacdora",
+            "category": "Packaging Design / 3D Mockup Generator",
+            "description": "An all-in-one AI platform for packaging and 3D mockup design, offering a vast library of editable templates, a mockup generator, and tools to create and export production-ready dielines.",
+            "useCases": [
+              "Generating photorealistic 3D mockups for boxes, bottles, jars, and other packaging in seconds",
+              "Creating and exporting precise dieline templates (AI, PDF, DXF formats) for printing and manufacturing",
+              "Using the AI Background Generator to instantly replace product photo backgrounds with realistic, style-matched themes",
+              "Designing packaging concepts from text-to-image prompts using advanced 3D rendering and GPT-4o integration",
+              "Customizing 3D models (size, material, lighting) for photorealistic product visualization"
+            ],
+            "additionalDetails": "Pacdora is browser-based, requiring no installation. It aims to bridge the gap between design and production by focusing on both visual creativity and structural accuracy. Pricing includes Lite, Pro ($29/month), and Business ($99/month) plans, with Pro and Business offering commercial rights, dieline export, and increased AI credits.",
+            "link": "https://www.pacdora.com/"
+          },
+          {
+            "id": "collov_ai",
+            "name": "Collov AI",
+            "category": "AI Virtual Staging / Interior Design",
+            "description": "An AI-powered tool specializing in virtual staging and photo editing for real estate, allowing users to instantly transform empty or cluttered rooms into beautifully furnished, professionally styled spaces.",
+            "useCases": [
+              "Performing AI Virtual Staging: filling empty rooms with photorealistic furniture and decor in various styles (Modern, Luxury, Minimalist)",
+              "Enhancing property photos (sharpening, brightening, color correction)",
+              "Executing Twilight Conversion (turning day photos into dramatic dusk shots)",
+              "Virtually renovating spaces by changing wall colors, floor materials, and replacing patchy lawns",
+              "Creating engaging side-by-side 'before and after' comparisons for listings"
+            ],
+            "additionalDetails": "Collov AI is known for its speed (10-second turnaround) and cost-effectiveness compared to physical staging. It is a vital tool for real estate agents and interior designers. Features include furniture removal and commercial photo licensing. It offers a free trial and various paid plans.",
+            "link": "https://collov.ai/"
+          },
+          {
+            "id": "opus_clip",
+            "name": "Opus Clip (Opus.pro)",
+            "category": "Video Repurposing / Content Creation",
+            "description": "A generative AI video repurposing tool that transforms long-form videos (e.g., podcasts, webinars) into multiple viral-ready short clips for social media platforms like TikTok, Reels, and YouTube Shorts.",
+            "useCases": [
+              "Automatically identifying and curating the 'gold nuggets' (most engaging moments) from lengthy video content",
+              "Generating dynamic, animated captions with highlighted keywords to maximize viewer engagement",
+              "Optimizing video layout and cropping to keep the speaker always centered and formatted for different platforms",
+              "Adding AI-generated B-roll footage and smooth transitions to create cohesive, professional short videos",
+              "Assigning a 'Virality Score' to help creators select the most promising clips"
+            ],
+            "additionalDetails": "Opus Clip aims to save content creators hours of manual editing by automating the entire process from analysis to polish. It offers a free plan with basic features and watermarks, and paid tiers (Starter, Pro: $29/month, Business) for higher processing limits, B-roll generation, and advanced collaboration features.",
+            "link": "https://www.opus.pro/"
+          },
+          {
+            "id": "warmwind",
+            "name": "Warmwind OS",
+            "category": "AI Operating System / Autonomous AI Agent",
+            "description": "The world's first true AI Operating System (AIOS) that deploys autonomous 'Cloud Employees' capable of performing complex digital tasks by visually interacting with software interfaces, just like a human (no APIs or code required).",
+            "useCases": [
+              "Automating customer support across email, chat, and WhatsApp (finding order info, resolving issues)",
+              "Handling accounting and invoice management (data extraction, reconciliation, payment reminders)",
+              "Serving as an autonomous Recruiting Assistant (screening CVs, conducting initial video interviews, evaluating candidates)",
+              "Managing social media growth (creating posts, scheduling optimally, trend monitoring)",
+              "Automating workflows across legacy ERP systems and databases that lack APIs"
+            ],
+            "additionalDetails": "Warmwind OS is cloud-native and uses a Vision-Language Model (VLM) to 'see' and interact with any application interface. It features a 'Teaching Mode' and 'Prompting Mode' for task setup. It is designed for businesses to scale complex automation from simple workflows to company-wide AI employees, offering high security and low latency.",
+            "link": "https://warmwind.space/"
+          }
 ];
