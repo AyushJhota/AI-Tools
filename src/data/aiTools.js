@@ -646,65 +646,6 @@ export const aiTools = [
                     "additionalDetails": "Leonardo.ai is highly regarded for its wide range of fine-tuned AI models and granular control over the creative process. It is a powerful platform for both beginners and experienced creators, featuring a community-driven model-sharing system and various paid plans for individuals and teams. The platform operates on a token-based system, with a free plan that provides a daily allowance of tokens and paid plans for increased usage and commercial rights.",
                     "link": "https://leonardo.ai/"
                   },
-  {
-    "id": "kiro",
-    "name": "Kiro (AI IDE)",
-    "category": "Coding Helper / AI Agent",
-    "description": "An AI-first integrated development environment (IDE) that acts as an autonomous coding agent, handling complex, multi-step software development tasks from a single prompt.",
-    "useCases": [
-      "Generating and refactoring entire features across multiple files",
-      "Debugging code and providing transparent, step-by-step fixes",
-      "Automating repetitive tasks like updating documentation and running tests with 'Agent Hooks'",
-      "Explaining complex code and architecture",
-      "Automating full-stack development from frontend to backend"
-    ],
-    "additionalDetails": "Unlike traditional AI assistants, Kiro is a full IDE that uses 'agentic workflows' and a 'reasoning loop' to autonomously plan and execute tasks. It integrates with your local environment, supports a wide range of programming languages, and works with VS Code extensions. It's built for teams and supports 'spec-driven development' to ensure code, documentation, and requirements stay in sync. It's available on a subscription model.",
-    "link": "https://kiro.dev/"
-  },
-  {
-    "id": "clipzap",
-    "name": "Clipzap.ai",
-    "category": "Video Generation / Workflow Automation",
-    "description": "An all-in-one AI platform that acts as a workflow manager, allowing users to build automated video, image, and text pipelines by connecting various AI models in a single interface.",
-    "useCases": [
-      "Building complete, automated video pipelines from text prompts to finished videos",
-      "Generating social media content at scale",
-      "Creating marketing videos, educational content, and e-commerce product videos",
-      "Connecting and chaining together over 40 different AI models (e.g., Runway, Midjourney, Kling AI)",
-      "Automating video creation, face-swapping, and audio generation"
-    ],
-    "additionalDetails": "Clipzap is known for its 'no-code' workflow builder, which uses a drag-and-drop editor to create complex content automation pipelines. It integrates a wide range of leading AI models and offers pre-built templates for quick deployment. It operates on a credit-based system, with a free tier and various paid plans for more credits and access to premium models.",
-    "link": "https://www.clipzap.ai/"
-  },
-  {
-    "id": "nunu_ai",
-    "name": "Nunu.ai",
-    "category": "Game Development / Quality Assurance",
-    "description": "An AI technology company that develops multi-modal AI agents to autonomously test and play video games, enhancing quality assurance and player simulation.",
-    "useCases": [
-      "Automating game testing and bug reporting at scale",
-      "Simulating human-like player behavior for testing and balancing",
-      "Running end-to-end game tests 24/7 without human intervention",
-      "Testing multiplayer games by spawning multiple AI agents to simulate real player interactions",
-      "Integrating with games using a lightweight SDK or via black-box testing"
-    ],
-    "additionalDetails": "Nunu.ai's agents use a human-like approach, interacting with games by looking at rendered frames and simulating keyboard/mouse inputs. This allows them to catch bugs that traditional scripted tests might miss. The service is primarily for game studios and offers cost savings by automating repetitive QA tasks. It is platform-agnostic, supporting PC and mobile games, with plans for console support.",
-    "link": "https://nunu.ai/"
-  },
-  {
-    "id": "golpo_ai",
-    "name": "Golpo AI",
-    "category": "Video Generation / Explainer Video",
-    "description": "An AI video generator that specializes in creating fully-produced, customizable explainer videos from documents, internal workflows, and other text-based inputs.",
-    "useCases": [
-      "Creating explainer videos from documents like PDFs, technical papers, and product documents",
-      "Turning internal workflows from platforms like Jira and GitHub into video tutorials",
-      "Producing educational and instructional videos",
-      "Generating product demos and technical overviews quickly"
-    ],
-    "additionalDetails": "Golpo AI is part of the Y Combinator startup accelerator. Its unique value proposition is its ability to transform complex, written information from various sources into clear, professional-looking explainer videos with minimal user effort. It aims to solve the problem of content creation for internal training, onboarding, and documentation.",
-    "link": "https://video.golpoai.com/"
-  },
     {
       "id": "offdeal_ai",
       "name": "OffDeal",
@@ -1424,5 +1365,62 @@ export const aiTools = [
             ],
             "additionalDetails": "Warmwind OS is cloud-native and uses a Vision-Language Model (VLM) to 'see' and interact with any application interface. It features a 'Teaching Mode' and 'Prompting Mode' for task setup. It is designed for businesses to scale complex automation from simple workflows to company-wide AI employees, offering high security and low latency.",
             "link": "https://warmwind.space/"
-          }
+          },
+  {
+    "id": "magi_1",
+    "name": "MAGI-1 (Mag1)",
+    "category": "Video Generation / Open Source Model",
+    "description": "An advanced, open-source autoregressive video generation model developed by SandAI, known for producing high-quality, continuous, and temporally consistent videos from text and images.",
+    "useCases": [
+      "Generating high-quality videos from text prompts (Text-to-Video)",
+      "Transforming static images into dynamic, moving scenes (Image-to-Video)",
+      "Creating seamlessly extended, long-form videos with no visible cuts (Infinite Extension)",
+      "Producing cinematic, animated, or realistic shots with smooth, natural motion and precise timeline control",
+      "Serving as an open-source model for research, game development, and custom applications"
+    ],
+    "additionalDetails": "MAGI-1 uses an auto-regressive denoising algorithm, generating videos chunk-by-chunk for efficient streaming and high temporal consistency. It is a strong competitor to closed-source commercial models like Kling AI and is fully open-source with public technical reports. It supports 720p output and is available for use via its official website and platforms like getimg.ai.",
+    "link": "https://magi-1.ai/"
+  },
+  {
+    "id": "magicui",
+    "name": "Magic UI",
+    "category": "UI Component Library / Design Engineer Tool",
+    "description": "A free and open-source UI component library featuring over 150 animated components and effects built with React, TypeScript, and Tailwind CSS, popular among design engineers.",
+    "useCases": [
+      "Copying and pasting professional, animated UI components (nav bars, bento grids, pricing tables) directly into modern web apps",
+      "Rapidly prototyping and building visually stunning websites and landing pages",
+      "Enhancing user experience with rich, interactive animations and effects without manual coding",
+      "Serving as a companion library to other popular UI frameworks like shadcn/ui"
+    ],
+    "additionalDetails": "Magic UI is a community-driven project known for its high-quality, modern aesthetics and ease of use. It is closely linked with the AI development ecosystem, often featuring templates and components used in AI startups. It is 100% open source and designed for quick integration and high performance.",
+    "link": "https://magicui.design/"
+  },
+  {
+    "id": "21st_dev",
+    "name": "21st.dev",
+    "category": "UI Component Marketplace",
+    "description": "A community-driven marketplace and open-source registry for high-quality React UI components that uses an AI agent ('Magic') to generate and refine components from natural language prompts.",
+    "useCases": [
+      "Generating professional, production-ready UI components (forms, tables, menus) from a simple text prompt",
+      "Browsing, downloading, and remixing reusable components published by the community (like an NPM for UI)",
+      "Integrating AI-generated components directly into IDEs (VS Code, Cursor) using the Microservice Communication Protocol (MCP)",
+      "Monetizing design-focused components by publishing them on the marketplace"
+    ],
+    "additionalDetails": "21st.dev is designed to accelerate frontend development by combining a curated library with AI-powered 'vibe-crafting.' The platform allows developers to generate multiple variations of a component and provides the source code for full customization. It offers a free plan with a monthly allowance of AI generation credits.",
+    "link": "https://21st.dev/"
+  },
+  {
+    "id": "reactbits",
+    "name": "React Bits",
+    "category": "UI Component Library / AI Integration",
+    "description": "An open-source collection of over 135 animated and interactive React UI components designed to enhance user experiences with minimal dependencies and maximum customizability.",
+    "useCases": [
+      "Building highly dynamic and animated web interfaces for modern applications and dashboards",
+      "Using pre-built 'statement pieces' components (e.g., 3D animations) to create visual impact",
+      "Integrating components into AI assistants and IDEs via an MCP server for AI-driven development",
+      "Customizing components with extensive props for a tailored look and feel"
+    ],
+    "additionalDetails": "React Bits is an open-source library built for both aesthetics and performance. It is explicitly designed for integration with AI assistants (via the ReactBits MCP Server) to enable AI agents to seamlessly suggest and implement its components into a developer's codebase, making it highly valuable in the agentic development workflow.",
+    "link": "https://www.reactbits.dev/"
+  }
 ];
