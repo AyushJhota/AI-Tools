@@ -647,126 +647,6 @@ export const aiTools = [
                     "link": "https://leonardo.ai/"
                   },
     {
-      "id": "offdeal_ai",
-      "name": "OffDeal",
-      "category": "Business / Financial Services",
-      "description": "An AI-native investment bank that automates and streamlines the mergers and acquisitions (M&A) process for small and medium-sized businesses (SMBs).",
-      "useCases": [
-        "Identifying potential acquisition targets using semantic search",
-        "Automating due diligence and research on target companies with AI agents",
-        "Crafting and sending personalized outreach emails to business owners",
-        "Streamlining deal logistics like creating promotional teasers and managing non-disclosure agreements",
-        "Providing a more efficient and cost-effective way for business owners to sell their companies"
-      ],
-      "additionalDetails": "OffDeal leverages generative AI and AI agents to handle the 'grunt work' of investment banking, allowing a small team of advisors to manage a higher volume of deals. It focuses on the lower middle-market, targeting businesses with revenues between $10M and $100M. It aims to reduce the typical M&A process from 18-24 months to just four months.",
-      "link": "https://offdeal.io/"
-    },
-    {
-      "id": "copycat_ai",
-      "name": "CopyCat (runcopycat.com)",
-      "category": "Workflow Automation / AI Agent",
-      "description": "A no-code browser automation platform that allows users to automate any web-based task by combining AI-driven prompts with deterministic actions like clicks and form fills.",
-      "useCases": [
-        "Automating repetitive tasks like data entry, invoice uploads, and data extraction from websites",
-        "Building and running web automation workflows without any coding knowledge",
-        "Scheduling tasks to run in the cloud 24/7",
-        "Integrating with legacy websites and portals that lack APIs",
-        "Automating complex financial processes like bank statement downloads and reconciliation"
-      ],
-      "additionalDetails": "CopyCat's key strength is its visual builder, which makes it accessible to non-technical users. It uses a hybrid approach, combining AI 'agentic' steps with reliable 'deterministic' steps for a robust automation process. It operates on a credit-based system with a free-forever plan and various paid tiers for higher usage.",
-      "link": "https://runcopycat.com/"
-    },
-    {
-      "id": "webhound",
-      "name": "Webhound",
-      "category": "Research / Data Collection",
-      "description": "An AI research agent that builds custom, structured datasets by autonomously conducting web research and extracting information from multiple sources.",
-      "useCases": [
-        "Automating market research and competitor analysis",
-        "Building lead lists for sales and marketing teams",
-        "Gathering and organizing data from public websites, social media, and forums",
-        "Collecting pricing, features, and customer reviews for product analysis",
-        "Finding and tracking specific data points, such as influencer emails and social media metrics"
-      ],
-      "additionalDetails": "Webhound is designed to save a significant amount of manual research time. Users simply describe the data they need in plain English, and the AI agent finds, extracts, and organizes it into a clean, exportable format (CSV, Excel, or JSON). Access is currently limited, with a free tier offering a small number of datasets per week.",
-      "link": "https://webhound.ai/"
-    },
-    {
-      "id": "comena",
-      "name": "Comena",
-      "category": "Business / B2B Automation",
-      "description": "An AI-powered B2B platform that automates the entire order processing workflow for distributors and manufacturers, from receiving an email to updating the ERP system.",
-      "useCases": [
-        "Automating the processing of purchase orders and inquiries from emails and PDFs",
-        "Intelligently matching free-text product descriptions to correct SKU numbers",
-        "Automating the creation of quotes and RFQs with thousands of line items",
-        "Reducing manual data entry for sales teams",
-        "Ensuring seamless integration and data flow with existing ERP systems"
-      ],
-      "additionalDetails": "Comena aims to free up sales teams from tedious administrative tasks so they can focus on active selling. The AI reads relevant data from documents, extracts it with high accuracy, and sends it to the ERP for approval. It is a specialized tool for B2B companies looking to improve efficiency and reduce errors in their order management.",
-      "link": "https://www.comena.ai/"
-    },
-  {
-    "id": "camel_ai",
-    "name": "CAMEL-AI",
-    "category": "Multi-Agent System / AI Framework",
-    "description": "An open-source, multi-agent framework that enables autonomous and collaborative interactions between AI agents, allowing them to perform complex tasks by role-playing and communicating with each other.",
-    "useCases": [
-      "Automating complex workflows by assigning roles to multiple agents (e.g., data collection, analysis, and report generation)",
-      "Generating high-quality synthetic data for research and training AI models",
-      "Building and simulating large-scale agent systems to study emergent behaviors",
-      "Creating advanced AI-powered assistants and customer support systems",
-      "Serving as a research tool to explore the scaling laws of AI and multi-agent systems"
-    ],
-    "additionalDetails": "CAMEL-AI is known for its 'role-playing' approach, where agents are given specific roles (e.g., 'data analyst' and 'reporter') to solve problems collaboratively. It is a research-focused framework that is scalable, stateful, and supports various LLMs. It can be used for building complex applications with real-time interactions.",
-    "link": "https://www.camel-ai.org/"
-  },
-  {
-    "id": "design_arena",
-    "name": "Design Arena",
-    "category": "AI Evaluation / Human-in-the-Loop",
-    "description": "A web platform that evaluates the quality of AI-generated designs through crowdsourced human preference testing, providing a benchmark for AI models.",
-    "useCases": [
-      "Benchmarking and ranking AI models based on human votes for design quality",
-      "Conducting head-to-head comparisons of AI-generated UI, images, and videos",
-      "Providing public leaderboards to track the performance of different generative models",
-      "Offering private evaluations for companies to test and improve their AI models",
-      "Allowing users to vote and provide feedback on AI-generated content"
-    ],
-    "additionalDetails": "Design Arena is a specialized tool for researchers, developers, and companies working with generative AI. It uses a pairwise comparison method to collect human votes, which are then used to calculate Elo-style rankings. It focuses on a 'human-in-the-loop' approach to create a reliable and transparent benchmark.",
-    "link": "https://designarena.ai/"
-  },
-  {
-    "id": "cosmic_new",
-    "name": "Cosmic AI Platform",
-    "category": "Web Development / Content Management",
-    "description": "An AI-powered application development and deployment platform that enables users to build and ship full-stack applications and websites using natural language commands, with an integrated headless CMS.",
-    "useCases": [
-      "Generating content models and realistic sample content with AI",
-      "Building and deploying full-stack applications from a text prompt",
-      "Creating and managing company websites, blogs, and mobile apps with an AI-first CMS",
-      "Simplifying website localization and content management at scale",
-      "Providing an all-in-one workspace for content creation, development, and deployment"
-    ],
-    "additionalDetails": "Cosmic (cosmic.new) aims to be a single platform for both content and code. It uses AI to generate production-ready code in modern frameworks like Next.js and Vue.js, and offers one-click deployment to services like Vercel. Its features include a content studio for AI-assisted writing, a built-in database, and robust collaboration tools.",
-    "link": "https://www.cosmicjs.com/"
-  },
-  {
-    "id": "firebender",
-    "name": "Firebender",
-    "category": "Coding Helper",
-    "description": "A free and privacy-first AI assistant plugin built specifically for Android Studio, providing real-time, context-aware coding assistance to Android developers.",
-    "useCases": [
-      "Getting AI chat assistance for Android-specific codebases, logs, and emulator states",
-      "Generating code snippets, functions, and boilerplate code with AI",
-      "Debugging and refactoring Android code with context-aware suggestions",
-      "Ensuring code suggestions are up-to-date with the latest Android frameworks and libraries",
-      "Providing a seamless and integrated AI coding experience within the Android Studio IDE"
-    ],
-    "additionalDetails": "Firebender's primary value proposition is its deep integration with the Android development environment and its focus on privacy. Unlike other general-purpose coding assistants, it maintains up-to-date knowledge of the rapidly changing Android ecosystem. It is available as a free plugin and is widely praised by Android developers for its efficiency and specialized knowledge.",
-    "link": "https://www.firebender.com/"
-  },
-    {
       "id": "rubbrband",
       "name": "Rubbrband AI",
       "category": "Image & Video Generation",
@@ -1422,5 +1302,65 @@ export const aiTools = [
     ],
     "additionalDetails": "React Bits is an open-source library built for both aesthetics and performance. It is explicitly designed for integration with AI assistants (via the ReactBits MCP Server) to enable AI agents to seamlessly suggest and implement its components into a developer's codebase, making it highly valuable in the agentic development workflow.",
     "link": "https://www.reactbits.dev/"
-  }
+  },
+    {
+      "id": "lovart_ai",
+      "name": "Lovart AI",
+      "category": "Design Agent / Marketing Visuals",
+      "description": "The world's first multimodal 'Design Agent' that transforms natural language prompts into various visual assets, including structured marketing documents, mockups, images, and short videos, with a focus on brand consistency.",
+      "useCases": [
+        "Generating structured marketing assets (price lists, menus, catalogs, brochures)",
+        "Creating realistic product mockups and hero images for e-commerce with easy background swapping",
+        "Building a full brand identity, including logo concepts, color palettes, and style guides, from a single chat prompt",
+        "Designing IP avatars/mascots with consistent character poses and expressions",
+        "Producing short animated video clips and lip-sync videos from stylized images"
+      ],
+      "additionalDetails": "Lovart excels in creating business-ready assets and branded collateral. Its workflow is often described as 'Talk-Tab-Tune' (describe, choose options, refine). It supports various export formats, including **PNG, JPG, SVG, and PSD** for visuals, and **MP4** for video. It combines the power of models like GPT-4, advanced image models (like Seedream 4.5), and video models (like Kling O1) into one interface.",
+      "link": "https://www.lovart.ai/"
+    },
+    {
+      "id": "pixverse_ai",
+      "name": "PixVerse AI",
+      "category": "Video Generation / Content Creation",
+      "description": "An AI-powered video creation suite that enables users to effortlessly convert text, images, and characters into high-quality, cinematic video content in seconds.",
+      "useCases": [
+        "Converting text descriptions into dynamic, high-quality video masterpieces (Text-to-Video)",
+        "Breathtaking static photos with natural movement and animation (Image-to-Video)",
+        "Seamlessly extending video clips with AI-driven continuity (Video Extension)",
+        "Applying viral trending effects like 'Earth Zoom Challenge' and 'Muscle Max' for social media content",
+        "Creating videos with multi-creation modes and keyframe control for creative stability"
+      ],
+      "additionalDetails": "PixVerse is known for its **lightning speed** (often generating results in around 5 seconds) and its focus on **hyper-real AI** with advanced physics simulations. It features the 'Smarter V5 Model' for improved prompt alignment and a 'Brand New Agent' for creative assistance. It offers an **API Integration** for developers and is available across web and mobile platforms.",
+      "link": "https://app.pixverse.ai/"
+    },
+    {
+      "id": "veed_io",
+      "name": "VEED.IO",
+      "category": "Video Editor / All-in-One Studio",
+      "description": "A browser-based, AI-powered video editing suite that offers a complete workflow for creating, editing, subtitling, translating, and publishing professional-quality video content.",
+      "useCases": [
+        "Auto-generating accurate subtitles and translating them into multiple languages with one click",
+        "Creating presenter videos using customizable AI Avatars or by cloning a real human voice/face",
+        "Using 'Magic Cut' to automatically trim filler words and pauses from talking-head videos",
+        "Correcting a speaker's eye contact to maintain engagement with the camera",
+        "Generating an entire video draft from a simple text prompt using 'Video GPT'"
+      ],
+      "additionalDetails": "VEED.IO is highly rated for its intuitive interface and its comprehensive set of tools that centralize the entire video production process. It includes a screen recorder, teleprompter, stock library, and an **AI Playground** featuring advanced models like Kling O1 and VEO 3. It offers a free tier (with watermarks) and tiered paid plans (Pro, Enterprise) for advanced AI and collaboration.",
+      "link": "https://www.veed.io/"
+    },
+    {
+      "id": "modelslab",
+      "name": "ModelsLab",
+      "category": "Developer API / Enterprise AI Infrastructure",
+      "description": "A developer-first platform offering a suite of AI APIs for businesses, specializing in high-speed, scalable, and secure generation of multi-modal content, including images, video, 3D assets, and audio.",
+      "useCases": [
+        "Integrating high-quality AI image generation (Stable Diffusion, Flux) into applications via RESTful API",
+        "Deploying enterprise-grade AI video generation for training, marketing, and corporate communications",
+        "Creating custom 3D models and textures from text prompts (3D Verse API)",
+        "Implementing multi-language voice synthesis, voice cloning, and text-to-speech features (Audio Gen API)",
+        "Deploying and managing custom, fine-tuned models on enterprise-grade infrastructure with a high uptime SLA"
+      ],
+      "additionalDetails": "ModelsLab is built for **developers and enterprises**, focusing on infrastructure, security (SOC 2, GDPR compliant), and speed (claiming 10x faster speeds and <0.5s response times). It supports a wide array of models and offers plugins for creative suites like Adobe and Da Vinci Resolve. Pricing is structured with a Pay-as-You-Go option and tiered subscriptions (Standard, Unlimited, Mission-Critical) for mission-critical workloads.",
+      "link": "https://modelslab.com/"
+    }
 ];
