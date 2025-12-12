@@ -1246,63 +1246,6 @@ export const aiTools = [
             "additionalDetails": "Warmwind OS is cloud-native and uses a Vision-Language Model (VLM) to 'see' and interact with any application interface. It features a 'Teaching Mode' and 'Prompting Mode' for task setup. It is designed for businesses to scale complex automation from simple workflows to company-wide AI employees, offering high security and low latency.",
             "link": "https://warmwind.space/"
           },
-  {
-    "id": "magi_1",
-    "name": "MAGI-1 (Mag1)",
-    "category": "Video Generation / Open Source Model",
-    "description": "An advanced, open-source autoregressive video generation model developed by SandAI, known for producing high-quality, continuous, and temporally consistent videos from text and images.",
-    "useCases": [
-      "Generating high-quality videos from text prompts (Text-to-Video)",
-      "Transforming static images into dynamic, moving scenes (Image-to-Video)",
-      "Creating seamlessly extended, long-form videos with no visible cuts (Infinite Extension)",
-      "Producing cinematic, animated, or realistic shots with smooth, natural motion and precise timeline control",
-      "Serving as an open-source model for research, game development, and custom applications"
-    ],
-    "additionalDetails": "MAGI-1 uses an auto-regressive denoising algorithm, generating videos chunk-by-chunk for efficient streaming and high temporal consistency. It is a strong competitor to closed-source commercial models like Kling AI and is fully open-source with public technical reports. It supports 720p output and is available for use via its official website and platforms like getimg.ai.",
-    "link": "https://magi-1.ai/"
-  },
-  {
-    "id": "magicui",
-    "name": "Magic UI",
-    "category": "UI Component Library / Design Engineer Tool",
-    "description": "A free and open-source UI component library featuring over 150 animated components and effects built with React, TypeScript, and Tailwind CSS, popular among design engineers.",
-    "useCases": [
-      "Copying and pasting professional, animated UI components (nav bars, bento grids, pricing tables) directly into modern web apps",
-      "Rapidly prototyping and building visually stunning websites and landing pages",
-      "Enhancing user experience with rich, interactive animations and effects without manual coding",
-      "Serving as a companion library to other popular UI frameworks like shadcn/ui"
-    ],
-    "additionalDetails": "Magic UI is a community-driven project known for its high-quality, modern aesthetics and ease of use. It is closely linked with the AI development ecosystem, often featuring templates and components used in AI startups. It is 100% open source and designed for quick integration and high performance.",
-    "link": "https://magicui.design/"
-  },
-  {
-    "id": "21st_dev",
-    "name": "21st.dev",
-    "category": "UI Component Marketplace",
-    "description": "A community-driven marketplace and open-source registry for high-quality React UI components that uses an AI agent ('Magic') to generate and refine components from natural language prompts.",
-    "useCases": [
-      "Generating professional, production-ready UI components (forms, tables, menus) from a simple text prompt",
-      "Browsing, downloading, and remixing reusable components published by the community (like an NPM for UI)",
-      "Integrating AI-generated components directly into IDEs (VS Code, Cursor) using the Microservice Communication Protocol (MCP)",
-      "Monetizing design-focused components by publishing them on the marketplace"
-    ],
-    "additionalDetails": "21st.dev is designed to accelerate frontend development by combining a curated library with AI-powered 'vibe-crafting.' The platform allows developers to generate multiple variations of a component and provides the source code for full customization. It offers a free plan with a monthly allowance of AI generation credits.",
-    "link": "https://21st.dev/"
-  },
-  {
-    "id": "reactbits",
-    "name": "React Bits",
-    "category": "UI Component Library / AI Integration",
-    "description": "An open-source collection of over 135 animated and interactive React UI components designed to enhance user experiences with minimal dependencies and maximum customizability.",
-    "useCases": [
-      "Building highly dynamic and animated web interfaces for modern applications and dashboards",
-      "Using pre-built 'statement pieces' components (e.g., 3D animations) to create visual impact",
-      "Integrating components into AI assistants and IDEs via an MCP server for AI-driven development",
-      "Customizing components with extensive props for a tailored look and feel"
-    ],
-    "additionalDetails": "React Bits is an open-source library built for both aesthetics and performance. It is explicitly designed for integration with AI assistants (via the ReactBits MCP Server) to enable AI agents to seamlessly suggest and implement its components into a developer's codebase, making it highly valuable in the agentic development workflow.",
-    "link": "https://www.reactbits.dev/"
-  },
     {
       "id": "lovart_ai",
       "name": "Lovart AI",
@@ -1362,5 +1305,64 @@ export const aiTools = [
       ],
       "additionalDetails": "ModelsLab is built for **developers and enterprises**, focusing on infrastructure, security (SOC 2, GDPR compliant), and speed (claiming 10x faster speeds and <0.5s response times). It supports a wide array of models and offers plugins for creative suites like Adobe and Da Vinci Resolve. Pricing is structured with a Pay-as-You-Go option and tiered subscriptions (Standard, Unlimited, Mission-Critical) for mission-critical workloads.",
       "link": "https://modelslab.com/"
-    }
+    },
+  {
+    "id": "topaz_labs",
+    "name": "Topaz Labs (Topaz Photo AI / Topaz Video AI)",
+    "category": "Image & Video Enhancement",
+    "description": "A professional suite of desktop AI software that uses deep learning to enhance, upscale, denoise, and sharpen photos and videos with industry-leading quality.",
+    "useCases": [
+      "Dramatically upscaling low-resolution images (up to 6x) while preserving fine detail (Gigapixel AI)",
+      "Removing noise and grain from low-light photos and videos without losing texture (DeNoise AI)",
+      "Fixing motion blur and soft focus to recover sharp details in images (Sharpen AI)",
+      "Restoring old, low-quality archival footage to 4K resolution (Video AI)",
+      "Processing files locally on the desktop for maximum speed, privacy, and security"
+    ],
+    "additionalDetails": "Topaz Labs' products are desktop-based (Windows/Mac) and process files locally, ensuring privacy and fast handling of large files—a key differentiator from cloud-based AI tools. The software is used by millions of professionals and offers a comprehensive package called Topaz Photo AI (combining DeNoise, Sharpen, and Gigapixel). It is available via a one-time purchase license.",
+    "link": "https://www.topazlabs.com/"
+  },
+  {
+    "id": "intangible_ai",
+    "name": "Intangible AI",
+    "category": "3D Design / Spatial Intelligence / Generative AI",
+    "description": "The world's first Spatial Intelligence AI platform for creative industries, allowing users to build and control 3D scenes in a browser and generate consistent images and videos with director-level camera control.",
+    "useCases": [
+      "Generating 3D scenes and environments from simple text prompts or drag-and-drop controls",
+      "Directing generative AI with precise camera control to ensure accurate shot composition for film and advertising",
+      "Rapidly visualizing event concepts, marketing pitches, and architectural layouts in 3D",
+      "Creating consistent characters and scenes across multiple images and video clips",
+      "Serving as a collaborative tool for film, advertising, and game development pre-production"
+    ],
+    "additionalDetails": "Intangible moves beyond language-only prompting by giving AI models spatial awareness, resulting in less 'hallucination' and more control over visual output. It is browser-based, integrates a large library of 3D assets, and offers free access during its beta phase.",
+    "link": "https://www.intangible.ai/"
+  },
+  {
+    "id": "textbehindimage",
+    "name": "TextBehindImage.com",
+    "category": "Image Editing / Graphic Design",
+    "description": "A free, web-based tool that uses AI to detect the foreground subject in a photo and seamlessly place text behind it, creating a professional and visually striking depth effect.",
+    "useCases": [
+      "Creating eye-catching social media graphics, particularly YouTube thumbnails and Instagram posts",
+      "Generating professional-looking posters and marketing visuals without needing complex software",
+      "Adding custom text layers, styling, and color controls to images",
+      "Ensuring privacy, as all AI processing (Intelligent AI Subject Detection) occurs locally in the browser"
+    ],
+    "additionalDetails": "The tool is 100% free, requires no signup, and ensures complete privacy by processing all image data client-side. It offers high-quality, unlimited downloads and supports multiple text layers and platform-specific export options.",
+    "link": "https://textbehindimage.com/"
+  },
+  {
+    "id": "waver_1_0",
+    "name": "Waver 1.0 (waverai.app)",
+    "category": "Video Generation / Unified Model",
+    "description": "A high-performance foundational AI model (developed by ByteDance) for unified image and video generation, known for its superior motion modeling and ability to craft multi-shot narratives.",
+    "useCases": [
+      "Generating high-resolution videos (up to 1080p) from text prompts (Text-to-Video)",
+      "Animating static images into dynamic video sequences (Image-to-Video)",
+      "Creating **multi-shot narratives** with seamless transitions and consistent subjects within a single video",
+      "Producing videos with complex motion (like sports scenes) and a variety of artistic styles (e.g., animation, photorealism)",
+      "Serving as an efficient tool for content creators, marketers, and educators"
+    ],
+    "additionalDetails": "Waver 1.0 functions as a single, integrated framework supporting T2V, I2V, and T2I generation. It excels in motion fluidity and visual consistency and is built on a two-stage pipeline for speed and quality. The platform operates on a freemium model, offering free access to core features with premium options for enhanced capabilities.",
+    "link": "https://www.waverai.app/Waver-1.0"
+  }
 ];
