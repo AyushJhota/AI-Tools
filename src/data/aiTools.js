@@ -1308,7 +1308,7 @@ export const aiTools = [
     },
   {
     "id": "topaz_labs",
-    "name": "Topaz Labs (Topaz Photo AI / Topaz Video AI)",
+    "name": "Topaz Labs",
     "category": "Image & Video Enhancement",
     "description": "A professional suite of desktop AI software that uses deep learning to enhance, upscale, denoise, and sharpen photos and videos with industry-leading quality.",
     "useCases": [
@@ -1338,7 +1338,7 @@ export const aiTools = [
   },
   {
     "id": "textbehindimage",
-    "name": "TextBehindImage.com",
+    "name": "TextBehindImage",
     "category": "Image Editing / Graphic Design",
     "description": "A free, web-based tool that uses AI to detect the foreground subject in a photo and seamlessly place text behind it, creating a professional and visually striking depth effect.",
     "useCases": [
