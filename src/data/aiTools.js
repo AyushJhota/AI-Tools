@@ -1364,5 +1364,57 @@ export const aiTools = [
     ],
     "additionalDetails": "Waver 1.0 functions as a single, integrated framework supporting T2V, I2V, and T2I generation. It excels in motion fluidity and visual consistency and is built on a two-stage pipeline for speed and quality. The platform operates on a freemium model, offering free access to core features with premium options for enhanced capabilities.",
     "link": "https://www.waverai.app/Waver-1.0"
-  }
+  },
+  {
+      "id": "omnidimension",
+      "name": "OmniDimension (omnidim.io)",
+      "category": "Voice & Chat AI Platform",
+      "description": "A multichannel AI platform that creates autonomous voice and chat assistants for handling complex, multilingual customer interactions.",
+      "useCases": [
+        "Automating inbound/outbound support and sales calls",
+        "Qualifying leads and scheduling appointments via voice/chat bots",
+        "Deploying IVR systems that understand context in 100+ languages"
+      ],
+      "additionalDetails": "OmniDimension specializes in high-fidelity, natural-sounding voice agents. It is designed for rapid deployment, allowing a functional agent to be launched in minutes. It features deep integration with LLMs like GPT-4 and Claude to handle non-scripted, human-like conversations.",
+      "link": "https://omnidim.io/"
+    },
+    {
+      "id": "homebyme",
+      "name": "HomeByMe",
+      "category": "3D Interior Design",
+      "description": "A professional-grade 3D design tool for creating floor plans and furnishing spaces with real branded products.",
+      "useCases": [
+        "Creating 2D/3D floor plans and photorealistic 4K renders",
+        "Designing rooms with interactive branded furniture catalogs",
+        "Generating 360-degree virtual tours for property showcases"
+      ],
+      "additionalDetails": "Owned by Dassault Systèmes, HomeByMe uses advanced web-based 3D rendering technology. It includes an AI 'Decoration Nudge' that suggests furniture based on your layout. It is popular with both hobbyists and professional interior designers for its ease of use and high-quality output.",
+      "link": "https://home.by.me/"
+    },
+    {
+      "id": "rapcut_app",
+      "name": "RapCut",
+      "category": "AI Video Editor / Content Repurposing",
+      "description": "An AI-powered video editor focused on 'text-based editing' and automating the creation of short-form social media clips from long-form footage.",
+      "useCases": [
+        "Editing videos by modifying the transcript (Text-Based Editing)",
+        "Automatically removing silences and filler words (ums, uhs) from recordings",
+        "Generating dynamic, animated captions and auto-sizing videos for TikTok and Reels"
+      ],
+      "additionalDetails": "RapCut is designed to bridge the gap between complex editors and no-code tools. It features 'smart silence removal' and AI-driven B-roll suggestions to help creators turn raw footage into polished shorts 10x faster. It operates via a web-based interface for easy accessibility.",
+      "link": "https://rapcut.app/"
+    },
+    {
+      "id": "otio",
+      "name": "Otio",
+      "category": "AI Research Assistant",
+      "description": "An all-in-one workspace that synthesizes data from PDFs, YouTube, and web links into grounded summaries and drafts.",
+      "useCases": [
+        "Summarizing long videos or massive PDF documents instantly",
+        "Chatting with specific files to extract cited information",
+        "Writing research papers in an editor grounded in your uploaded sources"
+      ],
+      "additionalDetails": "Otio is built for students and researchers to prevent AI 'hallucinations' by forcing the AI to use only provided sources. It supports a wide variety of inputs and allows for 'source-aware' drafting, where every claim the AI makes is linked back to a specific part of your data.",
+      "link": "https://otio.ai/"
+    }
 ];
