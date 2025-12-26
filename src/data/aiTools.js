@@ -1416,5 +1416,64 @@ export const aiTools = [
       ],
       "additionalDetails": "Otio is built for students and researchers to prevent AI 'hallucinations' by forcing the AI to use only provided sources. It supports a wide variety of inputs and allows for 'source-aware' drafting, where every claim the AI makes is linked back to a specific part of your data.",
       "link": "https://otio.ai/"
-    }
+    },
+      {
+        "id": "kiro",
+        "name": "Kiro (AI IDE)",
+        "category": "Coding Helper / AI Agent",
+        "description": "An AI-first integrated development environment (IDE) that acts as an autonomous coding agent, handling complex, multi-step software development tasks from a single prompt.",
+        "useCases": [
+          "Generating and refactoring entire features across multiple files",
+          "Debugging code and providing transparent, step-by-step fixes",
+          "Automating repetitive tasks like updating documentation and running tests with 'Agent Hooks'",
+          "Explaining complex code and architecture",
+          "Automating full-stack development from frontend to backend"
+        ],
+        "additionalDetails": "Unlike traditional AI assistants, Kiro is a full IDE that uses 'agentic workflows' and a 'reasoning loop' to autonomously plan and execute tasks. It integrates with your local environment, supports a wide range of programming languages, and works with VS Code extensions. It's built for teams and supports 'spec-driven development' to ensure code, documentation, and requirements stay in sync. It's available on a subscription model.",
+        "link": "https://kiro.dev/"
+      },
+      {
+        "id": "clipzap",
+        "name": "Clipzap.ai",
+        "category": "Video Generation / Workflow Automation",
+        "description": "An all-in-one AI platform that acts as a workflow manager, allowing users to build automated video, image, and text pipelines by connecting various AI models in a single interface.",
+        "useCases": [
+          "Building complete, automated video pipelines from text prompts to finished videos",
+          "Generating social media content at scale",
+          "Creating marketing videos, educational content, and e-commerce product videos",
+          "Connecting and chaining together over 40 different AI models (e.g., Runway, Midjourney, Kling AI)",
+          "Automating video creation, face-swapping, and audio generation"
+        ],
+        "additionalDetails": "Clipzap is known for its 'no-code' workflow builder, which uses a drag-and-drop editor to create complex content automation pipelines. It integrates a wide range of leading AI models and offers pre-built templates for quick deployment. It operates on a credit-based system, with a free tier and various paid plans for more credits and access to premium models.",
+        "link": "https://www.clipzap.ai/"
+      },
+      {
+        "id": "nunu_ai",
+        "name": "Nunu.ai",
+        "category": "Game Development / Quality Assurance",
+        "description": "An AI technology company that develops multi-modal AI agents to autonomously test and play video games, enhancing quality assurance and player simulation.",
+        "useCases": [
+          "Automating game testing and bug reporting at scale",
+          "Simulating human-like player behavior for testing and balancing",
+          "Running end-to-end game tests 24/7 without human intervention",
+          "Testing multiplayer games by spawning multiple AI agents to simulate real player interactions",
+          "Integrating with games using a lightweight SDK or via black-box testing"
+        ],
+        "additionalDetails": "Nunu.ai's agents use a human-like approach, interacting with games by looking at rendered frames and simulating keyboard/mouse inputs. This allows them to catch bugs that traditional scripted tests might miss. The service is primarily for game studios and offers cost savings by automating repetitive QA tasks. It is platform-agnostic, supporting PC and mobile games, with plans for console support.",
+        "link": "https://nunu.ai/"
+      },
+      {
+        "id": "golpo_ai",
+        "name": "Golpo AI",
+        "category": "Video Generation / Explainer Video",
+        "description": "An AI video generator that specializes in creating fully-produced, customizable explainer videos from documents, internal workflows, and other text-based inputs.",
+        "useCases": [
+          "Creating explainer videos from documents like PDFs, technical papers, and product documents",
+          "Turning internal workflows from platforms like Jira and GitHub into video tutorials",
+          "Producing educational and instructional videos",
+          "Generating product demos and technical overviews quickly"
+        ],
+        "additionalDetails": "Golpo AI is part of the Y Combinator startup accelerator. Its unique value proposition is its ability to transform complex, written information from various sources into clear, professional-looking explainer videos with minimal user effort. It aims to solve the problem of content creation for internal training, onboarding, and documentation.",
+        "link": "https://video.golpoai.com/"
+      }
 ];
